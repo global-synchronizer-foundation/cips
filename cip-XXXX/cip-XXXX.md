@@ -11,7 +11,7 @@ More information can be found in [CIP-0000](../../cips/cip-0000/cip-0000.md).
   Author: <list of authors' real names and email addrs>
 * Discussions-To: <email address>
 * Comments-Summary: <summary tone>
-  Comments-URI: <links to wiki page for comments>
+* Comments-URI: <links to wiki page for comments>
   Status: <Draft | Active | Proposed | Deferred | Rejected |
            Withdrawn | Final | Replaced | Obsolete>
   Type: <Standards Track | Governance | Tokenomics | Process | Informational>
