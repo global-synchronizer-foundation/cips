@@ -8,7 +8,7 @@ More information can be found in [CIP-0000](../../cips/cip-0000/cip-0000.md).
   CIP: <CIP number, or "?" before being assigned>
 * Layer: <TBD> [TBD see Layer definition cip-XXXX](../../cips/blob/main/cip-XXXX).
   Title: <CIP title; maximum 44 characters>
-  Author: <list of authors' real names and email addrs>
+  Author: <list of authors' real names>
 * Discussions-To: <email address>
 * Comments-Summary: <summary tone>
 * Comments-URI: <links to wiki page for comments>
