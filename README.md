@@ -38,7 +38,7 @@ Global Synchronizer CIPs
 | [cip-0040](cip-0040) |  | Add Deribit as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Final |
 | [cip-0041](cip-0041) |  | Add Circle as a Weight 10 Super Validator | Eric Saraniecki| Governance   | Final |
 | [cip-0042](cip-0042) |  | Stable Price per Canton Coin Transfer via Synchronizer Fees| Wayne Collier, Moritz Kiefer | Governance   | Final |
-| [cip-0044](cip-0044) |  | Add Elliptic as a Tier4 SV (Weight 0.5)...  | Eric Saraniecki| Governance   | Active   |
+| [cip-0044](cip-0044) |  | Add Elliptic as a Tier4 SV (Weight 0.5)...  | Eric Saraniecki| Governance   | Approved   |
 | [cip-0045](cip-0045) |  | SV Operating Requirements| Eric Saraniecki| Governance   | Active |
-| [cip-0046](/cip-0046) |  | Add Coin Metrics as a Weight 1 Super Validator | Eric Saraniecki| Governance   | Active |
+| [cip-0046](/cip-0046) |  | Add Coin Metrics as a Weight 1 Super Validator | Eric Saraniecki| Governance   | Approved |
 
