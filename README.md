@@ -4,7 +4,7 @@ Global Synchronizer CIPs
 
 | Number| Layer | Title| Author| Type| Status|
 |--------------------------------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-------------------|------------|
-| [cip-0000](cip-0000)   |  | CIP Process   | Wayne Collier | Process | Draft |
+| [cip-0000](cip-0000)   |  | CIP Process   | Wayne Collier | Process | Approved |
 | [cip-0001](cip-0001-0002-0003) |  | Replace the SV tranche time delays with a weighted reward  | Eric Saraniecki| Tokenomics   | Final |
 | [cip-0002](cip-0001-0002-0003) |  | Minor adjustments to the Tokenomics variables to fine tune BME tokenomics | Eric Saraniecki| Tokenomics   | Replaced   |
 | [cip-0003](cip-0001-0002-0003) |  | Distribute Canton Coin rewards to any Validator on the Network which is live and can claim its rewards quickly...| Eric Saraniecki| Tokenomics   | Final |
