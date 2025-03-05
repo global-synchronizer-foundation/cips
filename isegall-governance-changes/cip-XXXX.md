@@ -14,11 +14,16 @@
 ## Abstract
 
 This CIP proposes the following changes to on-chain voting:
+
 a) votes on config changes will change individual (or a few) config values, and not the whole set of configurations;
+
 b) vote proposals will have an expiration date, after which if not enough votes have been submitted,
 they will be auto-rejected;
+
 c) votes will remain open for editing until they become effective;
+
 d) votes will be early-rejected upon 2/3 majority of reject votes;
+
 e) vote requests can be labeled as "immediate effectivity",
 meaning they will automatically get accepted and take effect immediately as soon as 2/3 of the
 Super Validator nodes vote in favor.
@@ -52,6 +57,14 @@ close as rejected.
 The new implementation will introduce an "immediate effectivity" option for vote requests,
 which does not specify an explicit effectivity date, but instead becomes effective immediately
 upon collecting 2/3 "Accept" votes, but not earlier than the expiration date.
+
+## Motivation
+
+As the Super Validators developed experience with on-ledger voting, we realized that the current
+implementation is too complex, error-prone, and hard to reason about. We've encountered multiple
+cases where votes with mistakes have been created, that could have been avoided with more
+intuitive processes, or at least cleared out from the pipeline once a mistake has been identified,
+thus making it easier to create a new one with no such mistakes.
 
 ## Rationale
 
@@ -94,14 +107,6 @@ Currently, any vote request has both an expiration date and effectivity date.
 In practice, we've seen that on many vote proposals, the intention is to apply then
 as soon as possible and not at a pre-determined future date. Supporting "immediate effectivity"
 will satisfy this requirement.
-
-## Motivation
-
-As the Super Validators developed experience with on-ledger voting, we realized that the current
-implementation is too complex, error-prone, and hard to reason about. We've encountered multiple
-cases where votes with mistakes have been created, that could have been avoided with more
-intuitive processes, or at least cleared out from the pipeline once a mistake has been identified,
-thus making it easier to create a new one with no such mistakes.
 
 ## Backwards compatibility
 
