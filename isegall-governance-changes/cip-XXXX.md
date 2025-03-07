@@ -45,7 +45,7 @@ vote request is immediately considered stale and auto-rejected.
 ### Votes Remain Open
 
 The new implementation will allow votes to be modified until the point where the action being
-vote on has become effective.
+vote is scheduled to go into effect.
 
 ### Early Rejection
 
@@ -62,7 +62,8 @@ upon collecting 2/3 "Accept" votes, but not earlier than the expiration date.
 
 As the Super Validators developed experience with on-ledger voting, we realized that the current
 implementation is too complex, error-prone, and hard to reason about. We've encountered multiple
-cases where votes with mistakes have been created, that could have been avoided with more
+cases where vote proposals with mistakes have been submitted. These mistakes
+could have been avoided with more
 intuitive processes, or at least cleared out from the pipeline once a mistake has been identified,
 thus making it easier to create a new one with no such mistakes.
 
@@ -90,23 +91,22 @@ when they are required, as well as clean up stale votes that failed to get atten
 In the current implementation, once the expiration date on a vote request has passed,
 votes on it can no longer be modified. In practice, this has proven to be a burdening
 limitation, and Super Validator operators often expressed a need to modify their vote
-until the very last minute, i.e. until the corresponding action as become effective.
+until the very last minute, i.e. until the corresponding action has become effective.
 The new implementation will satisfy that requirement by allowing any vote to be modified
 until the point where the vote has become effective.
 
 ### Early Rejection
 
-Mistakes happen. We have had several cases on ledger already where vote requests contained
-errors, and we quickly realized they should get rejected. In the current implementation,
+Mistakes happen. We have had several cases on ledger already where vote proposals contained
+errors, and the Super Validator operators quickly realized that the vote proposals should be rejected. In the current implementation,
 there is no way to quickly get rid of those votes despite wide agreement that they should
 be rejected.
 
 ### Immediate Effectivity
 
-Currently, any vote request has both an expiration date and effectivity date.
-In practice, we've seen that on many vote proposals, the intention is to apply then
-as soon as possible and not at a pre-determined future date. Supporting "immediate effectivity"
-will satisfy this requirement.
+If a vote passes its expiration date with 2/3 of the SVs in favor, it's highly likely that it will go into effect on chain. For vote proposals that impact application providers and Validator operators, it's helpful to know for certain that a vote will take effect, and then have some time to prepare for this impact. Providing separate expiration and effectivity dates meets this need.
+
+On the other hand, some votes only involve the Super Validators, and have little to no operational impact. And there is also the possibility that the Super Validators could want to introduce a bug fix quickly. In these cases, it would be valuable to apply a vote proposal as soon as possible rather than at a pre-determined future date.
 
 ## Backwards compatibility
 
@@ -121,6 +121,12 @@ We have started implementing the required changes for this CIP, which include ch
 governance Daml models, as well as the backend and frontend of the SV application . Access to a test
 environment will be provided to all Super Validator Operators to experiment with and comment on
 before we finalize the code and finalize the changes.
+An early version of the code is available in the [`isegall/tmp-gov-votes`](https://github.com/hyperledger-labs/splice/tree/isegall/tmp-gov-votes) branch
+on the [Splice repo](https://github.com/hyperledger-labs/splice), including
+the required Daml changes, backend changes as well as frontend.
+To review the Daml changes, one can clone the repo locally and run
+`git diff isegall/tmp-gov-votes main -- daml`.
+
 
 ## Copyright
 
