@@ -2,7 +2,7 @@
 
 <pre>
   CIP: ?
-  Title: Changes to on-ledger vote logic
+  Title: Streamline onchain governance votes
   Author: Itai Segall
   Comments-Summary: No comments yet
   Status: Draft
