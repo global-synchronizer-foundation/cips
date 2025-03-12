@@ -33,7 +33,7 @@ Global Synchronizer CIPs
 | [cip-0035](/cip-0035/cip-0035.pdf) |  | Add Five North as a Tier2 SV (Weight 3) | Eric Saraniecki| Governance   | Final |
 | [cip-0036](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) | | Add Kiln as a Tier3 SV (Weight 1)| Eric Saraniecki| Governance   | Approved |
 | [cip-0037](cip-0037) |  | Add Obsidian as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Draft |
-| [cip-0038](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) |  | Add Hexagate as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Approved |
+| [cip-0038](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) |  | Add Hexagate as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Withdrawn |
 | [cip-0039](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) |  | Add Copper Clearloop as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
 | [cip-0040](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) |  | Add Deribit as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Approved |
 | [cip-0041](cip-0041) |  | Add Circle as a Weight 10 Super Validator | Eric Saraniecki| Governance   | Final |
@@ -42,5 +42,6 @@ Global Synchronizer CIPs
 | [cip-0044](cip-0044) |  | Add Elliptic as a Tier4 SV (Weight 0.5)...  | Eric Saraniecki| Governance   | Final  |
 | [cip-0045](cip-0045) |  | SV Operating Requirements| Eric Saraniecki| Governance   | Active |
 | [cip-0046](/cip-0046) |  | Add Coin Metrics as a Weight 1 Super Validator | Eric Saraniecki| Governance   | Approved |
+| [cip-0048](/cip-0048) |  | Raising the Rewards Cap for Validators and Application Providers | Wayne Collier | Tokenomics  | Approved |
 | [cip-0049](/cip-0049) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Proposed |
 
