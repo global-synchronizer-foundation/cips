@@ -1,7 +1,7 @@
-## CIP XXXX
+## CIP 0051
 
 <pre>
-  CIP: ?
+  CIP: CIP 0051
   Title: Streamline onchain governance votes
   Author: Itai Segall
   Comments-Summary: No comments yet
