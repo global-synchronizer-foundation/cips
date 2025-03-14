@@ -44,5 +44,4 @@ Global Synchronizer CIPs
 | [cip-0046](/cip-0046) |  | Add Coin Metrics as a Weight 1 Super Validator | Eric Saraniecki| Governance   | Approved |
 | [cip-0048](/cip-0048) |  | Raising the Rewards Cap for Validators and Application Providers | Wayne Collier | Tokenomics  | Final |
 | [cip-0049](/cip-0049) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Draft |
-
-
+| [cip-0052](/cip-0052) |  | Monstera FZE as a SV  at Weight [3] | Eric Saraniecki | Governance   | Draft |
