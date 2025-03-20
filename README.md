@@ -43,4 +43,4 @@ Global Synchronizer CIPs
 | [cip-0045](cip-0045) |  | SV Operating Requirements| Eric Saraniecki| Governance   | Active |
 | [cip-0046](/cip-0046) |  | Add Coin Metrics as a Weight 1 Super Validator | Eric Saraniecki| Governance   | Approved |
 | [cip-0048](/cip-0048) |  | Raising the Rewards Cap for Validators and Application Providers | Wayne Collier | Tokenomics  | Approved |
-
+| [cip-0056](/cip-0056) |  | Canton Network Token Standard | Simon Meier, Matteo Limberto, Moritz Kiefer | Standards Track | Draft |
