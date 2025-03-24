@@ -39,3 +39,5 @@ Global Synchronizer CIPs
 | [cip-0042](cip-0042) |  | Stable Price per Canton Coin Transfer via Synchronizer Fees| Wayne Collier, Moritz Kiefer | Governance   | Final |
 | [cip-0044](cip-0044) |  | Add Elliptic as a Tier4 SV (Weight 0.5)...  | Eric Saraniecki| Governance   | Proposed   |
 | [cip-0045](cip-0045) |  | SV Operating Requirements| Eric Saraniecki| Governance   | Draft |
+| [cip-0047](cip-0047) |  | Featured App Activity Markers| Moritz Kiefer | Tokenomics   | Approved |
+
