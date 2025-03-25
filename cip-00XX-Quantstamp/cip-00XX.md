@@ -51,6 +51,7 @@
     * Founded in 2017, Quantstamp has secured blockchain applications managing over $200 billion in digital assets, serving prominent projects like OpenSea, Ethereum 2.0, Solana, and Maker
     * Quantstamp offers both automated and manual auditing services to detect and address vulnerabilities in blockchain implementations, enhancing the safety and reliability of decentralized applications
 
+![img](/cip-00XX-Quantstamp/cip-00xx.png)
 
 ## Copyright
 
