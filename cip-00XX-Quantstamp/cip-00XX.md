@@ -1,0 +1,61 @@
+## CIP 00XX
+
+<pre>
+  CIP: CIP 00XX
+  Title:  Add Quantstamp as a Weight 1 Super Validator
+  Author: 
+    Eric W Saraniecki 
+  Status: Draft 
+  Type: Governance 
+  Created: 2025-03-07
+  Approved: TBD
+  License: CC0-1.0
+</pre>
+
+## Abstract
+
+* Add Quantstamp as a Tier 3 (Weight 1) Super Validator rights owner
+* Quantstamp commits to complete an audit to determine whether the Daml smart contracts governing the tokenomics of Canton Coin accurately represent the logic and functions articulated in the Canton Coin Whitepaper **([Canton Coin: A Canton-Network-native payment application, July 2024](https://www.digitalasset.com/hubfs/Canton%20Network%20Files/Documents%20(whitepapers%2c%20etc...)/Canton%20Coin_%20A%20Canton-Network-native%20payment%20application.pdf?__hstc=169870847.27df3a707cb3b89a07f374d4891d8642.1710256798828.1741110253846.1741612640674.91&__hssc=169870847.2.1741612640674&__hsfp=3850742519&_gl=1*5z4x0k*_gcl_au*MTQ5NzQwNTI2My4xNzM2ODcwMDU0*_ga*Mzg3OTI0NjkxLjE3MTAyNTY3OTg.*_ga_GVK9ZHZSMR*MTc0MTYxMjYzOS43Ny4xLjE3NDE2MTI2NDIuNTcuMC4w))**
+* Quantstamp agrees to complete the audit and provide their analysis no later than 3 months after the approval of this CIP
+* Quantstamp agrees to a 3 year commitment to performing this audit 1x per year, OR for every major upgrade (for example upgrade from 2.x to 3.x.) 
+    * More specifically
+        * Quantstamp will do three more audits after the first audit for a total of four audits.
+        * Each time there is a major protocol change, they audit after the protocol change on an agreed upon and reasonable timeline.
+        * If for some reason there is not a major protocol change for 12 months, they re-audit Canton Coin once within that 12 month period
+
+#### Specification
+* Add 1 0000 SV Weight for Quantstamp
+* Increase the GSF’s minting weight +1 and assign to Quantstamp
+* Quantstamp is free to operate a Super Validator node at their discretion (based on [CIP-0045](https://lists.sync.global/g/cip-announce/topic/cip_0045_sv_operating/111253114))
+
+
+## Motivation
+
+* Canton Coin is a critical component to ensure the proper function of network interactions and is  the primary rewards mechanism of the Canton Network. The Canton Coin Whitepaper clearly articulates the target functions and objectives of Canton Coin
+* It is critically important that the codebase of the Daml smart contracts governing Canton Coin accurately represent the objectives and functions articulated in the Canton Coin Whitepaper, both to ensure proper functioning of the network, and also to solidify the legitimacy of Canton Coin and the Canton Network in the broader ecosystem
+* The codebase governing the functions of Canton Coin is subject to change at times either through upgrades or other similar maintenance-related activities. Thus, it is important to revisit the audit periodically or post-upgrade to ensure any changes to the codebase continues to accurately represent the objectives and functions articulated in the whitepaper.
+
+
+## Rationale
+* Quantstamp is a global leader in blockchain audits are uniquely qualified to provide this service in a manner that is respected throughout the industry
+* Quantstamp provides audits and additional services to many high-caliber clients and their presence on Canton Network will stand to increase the network footprint
+* Quantstamp commits to complete an audit to determine whether the Daml smart contracts governing the tokenomics of Canton Coin accurately represent the logic and functions articulated in the Canton Coin Whitepaper **([Canton Coin: A Canton-Network-native payment application, July 2024](https://www.digitalasset.com/hubfs/Canton%20Network%20Files/Documents%20(whitepapers%2c%20etc...)/Canton%20Coin_%20A%20Canton-Network-native%20payment%20application.pdf?__hstc=169870847.27df3a707cb3b89a07f374d4891d8642.1710256798828.1741110253846.1741612640674.91&__hssc=169870847.2.1741612640674&__hsfp=3850742519&_gl=1*5z4x0k*_gcl_au*MTQ5NzQwNTI2My4xNzM2ODcwMDU0*_ga*Mzg3OTI0NjkxLjE3MTAyNTY3OTg.*_ga_GVK9ZHZSMR*MTc0MTYxMjYzOS43Ny4xLjE3NDE2MTI2NDIuNTcuMC4w))**
+* Quantstamp agrees to complete the audit and provide their analysis no later than 3 months after the approval of this CIP
+* Quantstamp agrees to a 3 year commitment to performing this audit 1x per year, OR for every major upgrade (for example upgrade from 2.x to 3.x.) 
+    * More specifically
+        * Quantstamp will do three more audits after the first audit for a total of four audits.
+        * Each time there is a major protocol change, they audit after the protocol change on an agreed upon and reasonable timeline.
+        * If for some reason there is not a major protocol change for 12 months, they re-audit Canton Coin once within that 12 month period
+* Why Quantstamp
+    * ​Quantstamp is a leading blockchain security company specializing in smart contract audits and decentralized application (dApp) security.
+    * Founded in 2017, Quantstamp has secured blockchain applications managing over $200 billion in digital assets, serving prominent projects like OpenSea, Ethereum 2.0, Solana, and Maker
+    * Quantstamp offers both automated and manual auditing services to detect and address vulnerabilities in blockchain implementations, enhancing the safety and reliability of decentralized applications
+
+
+## Copyright
+
+This CIP is licensed under CC0-1.0: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+## Changelog
+
+* **2025-03-25:** Initial draft of the proposal.

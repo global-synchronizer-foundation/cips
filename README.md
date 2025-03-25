@@ -46,4 +46,6 @@ Global Synchronizer CIPs
 | [cip-0048](/cip-0048) |  | Raising the Rewards Cap for Validators and Application Providers | Wayne Collier | Tokenomics  | Final |
 | [cip-0049](/cip-0049) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Draft |
 | [cip-0054](/cip-0054) |  | Add Figment as a Weight 1 Super Validator | Eric Saraniecki, Jacob McCrum | Governance   | Approved |
+| [cip-00XX-Quantstamp](/cip-00XX) |  | Add Quantstamp as a Weight 1 Super Validator | Eric Saraniecki | Governance  | Draft |
+
 
