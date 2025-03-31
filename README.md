@@ -4,7 +4,7 @@ Global Synchronizer CIPs
 
 | Number| Layer | Title| Author| Type| Status|
 |--------------------------------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-------------------|------------|
-| [cip-0000](cip-0000)   |  | CIP Process   | Wayne Collier | Process | Draft |
+| [cip-0000](cip-0000)   |  | CIP Process   | Wayne Collier | Process | Approved |
 | [cip-0001](cip-0001-0002-0003) |  | Replace the SV tranche time delays with a weighted reward  | Eric Saraniecki| Tokenomics   | Final |
 | [cip-0002](cip-0001-0002-0003) |  | Minor adjustments to the Tokenomics variables to fine tune BME tokenomics | Eric Saraniecki| Tokenomics   | Replaced   |
 | [cip-0003](cip-0001-0002-0003) |  | Distribute Canton Coin rewards to any Validator on the Network which is live and can claim its rewards quickly...| Eric Saraniecki| Tokenomics   | Final |
@@ -32,7 +32,7 @@ Global Synchronizer CIPs
 | [cip-0034](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) | | Add Proof Group as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
 | [cip-0035](/cip-0035/cip-0035.pdf) |  | Add Five North as a Tier2 SV (Weight 3) | Eric Saraniecki| Governance   | Final |
 | [cip-0036](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) | | Add Kiln as a Tier3 SV (Weight 1)| Eric Saraniecki| Governance   | Approved |
-| [cip-0037](cip-0037) |  | Add Obsidian as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Draft |
+| [cip-0037](cip-0037) |  | Add Obsidian as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Approved |
 | [cip-0038](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) |  | Add Hexagate as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Withdrawn |
 | [cip-0039](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) |  | Add Copper Clearloop as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
 | [cip-0040](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) |  | Add Deribit as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Approved |
@@ -42,5 +42,9 @@ Global Synchronizer CIPs
 | [cip-0044](cip-0044) |  | Add Elliptic as a Tier4 SV (Weight 0.5)...  | Eric Saraniecki| Governance   | Final  |
 | [cip-0045](cip-0045) |  | SV Operating Requirements| Eric Saraniecki| Governance   | Active |
 | [cip-0046](/cip-0046) |  | Add Coin Metrics as a Weight 1 Super Validator | Eric Saraniecki| Governance   | Approved |
-| [cip-0048](/cip-0048) |  | Raising the Rewards Cap for Validators and Application Providers | Wayne Collier | Tokenomics  | Approved |
+| [cip-0047](cip-0047) |  | Featured App Activity Markers| Moritz Kiefer | Tokenomics   | Approved |
+| [cip-0048](/cip-0048) |  | Raising the Rewards Cap for Validators and Application Providers | Wayne Collier | Tokenomics  | Final |
+| [cip-0049](/cip-0049) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Draft |
+| [cip-0051](/cip-0051) |  | Streamline onchain governance votes | Itai Segall | Governance  | Approved |
+| [cip-0054](/cip-0054) |  | Add Figment as a Weight 1 Super Validator | Eric Saraniecki, Jacob McCrum | Governance   | Approved |
 | [cip-0056](/cip-0056) |  | Canton Network Token Standard | Simon Meier, Matteo Limberto, Moritz Kiefer | Standards Track | Approved |
