@@ -5,10 +5,10 @@ Global Synchronizer CIPs
 | Number| Layer | Title| Author| Type| Status|
 |--------------------------------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-------------------|------------|
 | [cip-0000](cip-0000)   |  | CIP Process   | Wayne Collier | Process | Approved |
-| [cip-0001](cip-0001-0002-0003) |  | Replace the SV tranche time delays with a weighted reward  | Eric Saraniecki| Tokenomics   | Final |
-| [cip-0002](cip-0001-0002-0003) |  | Minor adjustments to the Tokenomics variables to fine tune BME tokenomics | Eric Saraniecki| Tokenomics   | Replaced   |
-| [cip-0003](cip-0001-0002-0003) |  | Distribute Canton Coin rewards to any Validator on the Network which is live and can claim its rewards quickly...| Eric Saraniecki| Tokenomics   | Final |
-| [cip-0006](cip-0006-0007) |  | Define the process of distributing and approving  | Eric Saraniecki| Process | Final |
+| [cip-0001](/cip-0001) |  | Replace the SV tranche time delays with a weighted reward  | Eric Saraniecki| Tokenomics   | Final |
+| [cip-0002](/cip-0001/) |  | Minor adjustments to the Tokenomics variables to fine tune BME tokenomics | Eric Saraniecki| Tokenomics   | Replaced   |
+| [cip-0003](/cip-0003/) |  | Distribute Canton Coin rewards to any Validator on the Network which is live and can claim its rewards quickly...| Eric Saraniecki| Tokenomics   | Final |
+| [cip-0006](/cip-0006-0007/) |  | Define the process of distributing and approving  | Eric Saraniecki| Process | Final |
 | [cip-0007](cip-0006-0007) |  | SVs can earn extra SV reward weight when bringing Validators or apps to the Canton Network | Eric Saraniecki| Tokenomics   | Final |
 | [cip-0008](cip-0008) |  | Update and Refinement to CIP-0002  | Wayne Collier, Moritz Kiefer | Tokenomics   | Replaced   |
 | [cip-0009](cip-0009-0010-0011) |  | Add Broadridge as a T1 (weight 10) Super Validator| Eric Saraniecki| Governance   | Final |
@@ -24,18 +24,18 @@ Global Synchronizer CIPs
 | [cip-0019](cip-0019) |  | Add 7RIDGE as a T1 (weight 10) Super Validator. 7RIDGE is used as a placeholder to represent the NewCo until the entity name is finalized.| Chris Zuehlke| Governance   | Final |
 | [cip-0020](cip-0020) |  | Update and Refinement to CIP-0002  | Eric Saraniecki| Tokenomics   | Final |
 | [cip-0021](cip-0021) |  | Introduce Featured Application and Validator Committee (FAV-C)  | Chris Zuehlke| Governance   | Final |
-| [cip-0023](cip-0023) |  | Proposal to form a Super Validator Operations committee (the Committee)...| Eric Saraniecki| Governance   | Withdrawn  |
+| cip-0023 |  | Proposal to form a Super Validator Operations committee (the Committee)...| Eric Saraniecki| Governance   | Withdrawn  |
 | [cip-0024](cip-0024-0025) |  | SVs and Validators can earn SV reward weight when bringing Validators or apps to the Canton Network.  | Eric Saraniecki| Tokenomics   | Final |
 | [cip-0025](cip-0024-0025) |  | CIP-0006 and CIP-0021 called for the formation of Validator and Featured App committees   | Eric Saraniecki| Governance   | Final |
-| [cip-0032](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) | | Add Lukka as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
-| [cip-0033](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) | | Add Strange Pixels as a Tier4 SV (Weight 0.5) | Eric Saraniecki| Governance   | Rejected   |
-| [cip-0034](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) | | Add Proof Group as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
-| [cip-0035](/cip-0035/cip-0035.pdf) |  | Add Five North as a Tier2 SV (Weight 3) | Eric Saraniecki| Governance   | Final |
-| [cip-0036](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) | | Add Kiln as a Tier3 SV (Weight 1)| Eric Saraniecki| Governance   | Approved |
+| [cip-0032](/cip-0032-0033-0034-0036-0038-0039-0040) | | Add Lukka as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
+| [cip-0033](/cip-0032-0033-0034-0036-0038-0039-0040) | | Add Strange Pixels as a Tier4 SV (Weight 0.5) | Eric Saraniecki| Governance   | Rejected   |
+| [cip-0034](/cip-0032-0033-0034-0036-0038-0039-0040) | | Add Proof Group as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
+| [cip-0035](/cip-0035) |  | Add Five North as a Tier2 SV (Weight 3) | Eric Saraniecki| Governance   | Final |
+| [cip-0036](/cip-0032-0033-0034-0036-0038-0039-0040) | | Add Kiln as a Tier3 SV (Weight 1)| Eric Saraniecki| Governance   | Approved |
 | [cip-0037](cip-0037) |  | Add Obsidian as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Approved |
-| [cip-0038](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) |  | Add Hexagate as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Withdrawn |
-| [cip-0039](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) |  | Add Copper Clearloop as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
-| [cip-0040](/cip-0032-0033-0034-0036-0038-0039-0040/cip-0032-0033-0034-0036-0038-0039-0040.pdf) |  | Add Deribit as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Approved |
+| [cip-0038](/cip-0032-0033-0034-0036-0038-0039-0040) |  | Add Hexagate as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Withdrawn |
+| [cip-0039](/cip-0032-0033-0034-0036-0038-0039-0040) |  | Add Copper Clearloop as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
+| [cip-0040](/cip-0032-0033-0034-0036-0038-0039-0040) |  | Add Deribit as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Approved |
 | [cip-0041](cip-0041) |  | Add Circle as a Weight 10 Super Validator | Eric Saraniecki| Governance   | Final |
 | [cip-0042](cip-0042) |  | Stable Price per Canton Coin Transfer via Synchronizer Fees| Wayne Collier, Moritz Kiefer | Governance   | Final |
 | [cip-0043](cip-0043) |  | Add TRM as a SV  |  Eric Saraniecki | Governance   | Approved |
