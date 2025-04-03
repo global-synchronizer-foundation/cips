@@ -45,7 +45,7 @@ Global Synchronizer CIPs
 | [cip-0047](cip-0047) |  | Featured App Activity Markers| Moritz Kiefer | Tokenomics   | Approved |
 | [cip-0048](/cip-0048) |  | Raising the Rewards Cap for Validators and Application Providers | Wayne Collier | Tokenomics  | Final |
 | [cip-0049](/cip-0049) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Draft |
+| [cip-0051](/cip-0051) |  | Streamline onchain governance votes | Itai Segall | Governance  | Approved |
 | [cip-0054](/cip-0054) |  | Add Figment as a Weight 1 Super Validator | Eric Saraniecki, Jacob McCrum | Governance   | Approved |
+Approved
 | [cip-0057](/cip-0057) |  | Add Quantstamp as a Weight 1 Super Validator | Eric Saraniecki | Governance  | Approved |
-
-
