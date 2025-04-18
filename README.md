@@ -27,7 +27,7 @@ Global Synchronizer CIPs
 | cip-0023 |  | Proposal to form a Super Validator Operations committee (the Committee)...| Eric Saraniecki| Governance   | Withdrawn  |
 | [cip-0024](cip-0024-0025) |  | SVs and Validators can earn SV reward weight when bringing Validators or apps to the Canton Network.  | Eric Saraniecki| Tokenomics   | Final |
 | [cip-0025](cip-0024-0025) |  | CIP-0006 and CIP-0021 called for the formation of Validator and Featured App committees   | Eric Saraniecki| Governance   | Final |
-| [cip-0032](/cip-0032-0033-0034-0036-0038-0039-0040) | | Add Lukka as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
+| [cip-0032](/cip-0032-0033-0034-0036-0038-0039-0040) | | Add Lukka as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Approved |
 | [cip-0033](/cip-0032-0033-0034-0036-0038-0039-0040) | | Add Strange Pixels as a Tier4 SV (Weight 0.5) | Eric Saraniecki| Governance   | Rejected   |
 | [cip-0034](/cip-0032-0033-0034-0036-0038-0039-0040) | | Add Proof Group as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
 | [cip-0035](/cip-0035) |  | Add Five North as a Tier2 SV (Weight 3) | Eric Saraniecki| Governance   | Final |
