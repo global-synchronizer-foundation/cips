@@ -1,0 +1,231 @@
+## CIP 00XX
+
+<pre>
+  CIP: CIP 00XX
+  Title: Add Chainlink as a Super Validator of Weight 10
+  Author: 
+    Fernando Luis Vázquez Cao
+  Status: Draft 
+  Type: Governance 
+  Created: 2025-05-09
+  Approved: TBD
+  License: CC0-1.0
+</pre>
+
+## Table of Contents
+
+* [Abstract](#abstract)
+* [About Chainlink](#about-chainlink)
+* [Deliverables for full SV Reward](#deliverables-for-full-sv-reward)
+* [Mechanics](#mechanics)
+  * [SV Mechanics](#sv-mechanics)
+* [Appendix I – Motivation](#appendix-i--motivation)
+* [Appendix II – Why Chainlink?](#appendix-ii--why-chainlink)
+* [Appendix III – Chainlink’s Scope of Work — A Snapshot](#appendix-iii--chainlinks-scope-of-work----a-snapshot)
+* [Disclaimer](#disclaimer)
+* [Copyright](#copyright)
+* [Changelog](#changelog)
+* [Notes](#notes)
+
+## Abstract:
+<a id="abstract"></a>
+
+* Add Chainlink as a Weight 10 Super Validator.
+* Chainlink commits to bringing its enterprise-grade oracle infrastructure to the Canton Network by natively integrating with the Canton Network Global Synchronizer and providing key Chainlink services to Canton users, starting with [Data Streams](https://docs.chain.link/data-streams), Smart Data including [Proof of Reserve (PoR)](https://chain.link/proof-of-reserve), and the [Cross-Chain Interoperability Protocol (CCIP)](https://chain.link/cross-chain).
+* The use of Data Streams, Proof of Reserve, CCIP, and other Chainlink services by Canton users will unlock new application use cases and value for the overall Canton network ecosystem.
+
+## About Chainlink:
+<a id="about-chainlink"></a>
+
+* [Chainlink](https://chain.link/) is the global standard for connecting blockchains to real-world data, other blockchains, governments, and enterprise systems. Chainlink powers critical use cases across DeFi, banking, tokenized real world assets (RWAs), cross-chain, and more, and is widely adopted by major financial institutions, national governments, and top DeFi protocols, including Swift, DTCC, Monetary Authority of Singapore, Euroclear, Central Bank of Brazil, Fidelity International, UBS, Aave, GMX, Lido, and many more.
+* In the Web3[[1]](#note_1) space The Chainlink platform has operated in production for over half a decade and has secured over $75 B+ in DeFi TVL at its peak and has enabled over $20 trillion in transaction value enabled[[2]](#note_1) as of March 2025. With 300+ engineers and dedicated monitoring teams, Chainlink Labs is uniquely positioned to offer the depth of support and execution strength needed to operate secure cross-chain and data systems at scale.
+* In the Web3 space, Chainlink secures 92% of total value secured by general purpose oracles, enables 71% of the total DeFi Transaction Value secured by general purpose oracles and powers 55% of DeFi protocols secured by general purpose oracles. Chainlink also powers the biggest DeFi projects, including Aave, Spark, Compound, Venus, dYdX, GMX, etc., and has been integrated with more than 50 public/permissioned blockchain networks.
+* Leading DeFi applications and regulated financial institutions alike are already using Chainlink’s offerings in key deployments, making it a widely used platform in DeFi and capital markets today.
+
+## Deliverables for full SV Reward:
+<a id="deliverables-for-full-sv-reward"></a>
+
+| Deliverable                                                          | Acceptance Criteria                                                                                                                                                                                                                                                 | Deadline                       | Weight Earned                                    |
+|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|--------------------------------------------------|
+| Chainlink Oracle Infrastructure (Data Streams) integration to Canton | • Chainlink brings its enterprise grade Data Streams oracle infrastructure to the Canton Network by natively integrating with the Canton Network Global Synchronizer.                                                                                            | 180 days from CIP Approval     | 2.5                                              |
+| Smart Data (Proof of Reserve) Integration to Canton                  | • Chainlink enables SmartData services including PoR.                                                                                                                                                                                                               | 180 Days from CIP Approval     | 2.5                                              |
+| Cross Chain Interoperability Protocol (CCIP) integration to Canton   | • Chainlink enables CCIP service to connect the Canton Network Global Synchronizer with over 50 public and permissioned blockchains, at the highest levels of security and reliability.                                                                            | 365 Days from CIP Approval     | 2.5                                              |
+| Adoption Incentives                                                  | Category 1: Value-based incentives <br> • Chainlink enables current Canton users to implement live use cases which require cross-chain interoperability, proof of reserves and/or other Chainlink offerings; seven have been identified thus far. The first use case will use PoR to support bridged collateral into the Canton Network using Bitcoin (wrapped iBTC). Other potential users (at different stages of discussion) include: BX Digital, Goldman Sachs, HSBC, BNP Paribas, Broadridge and Nasdaq.<br> Category 2: Strategic adopter incentives  <br> Chainlink brings new users to the Canton network. This could be direct referral of new users (Web3/TradFi) and/or the launch of new offerings: (e.g. SBI Digital Markets to create a Canton Network on/off ramp for regulated digital assets, enabling the secure movement of such assets across jurisdictional boundaries and in accordance with regulatory requirements) | +365 Days from Product Integration | • 0.5 per live deployment on Canton AND/OR <br> 0.5 per new approved Participant and/or offering  <br> • Max up to 2.5 across both categories |
+
+## Mechanics:
+<a id="mechanics"></a>
+
+* The GSF Tokenomics committee commits to reviewing each proposed participant and clearly notifying Chainlink if the participant would count against the Adoption Incentives.
+* Chainlink will meet with the GSF Tokenomics committee once every 60 days and provide a progress report towards stated deliverables.
+
+### SV Mechanics
+<a id="sv-mechanics"></a>
+
+* An `extraBeneficiary` PartyID associated with the ‘escrowed’ Super Validator will be setup by the GSF with an SV Weight at the maximum earnable weight in the CIP that granted rights to that Super Validator.
+    * The Applicant is responsible for all costs associated with the operation of the escrow SV
+    * The escrow SV will NOT mint rewards on a block by block basis
+    * All escrow SV rewards will go to the Unclaimed Rewards pool
+* ⅔ of the Super Validator Operators will update their configurations to allow GSF to host the full weight to be earned by the given Super Validator
+* Applicant is required to present proof of successful completed milestones to the Tokenomics Working Group
+    * Applicant is required to present a calculation for number of Canton Coin it should earn for meeting the requirements of the milestone
+* If the Tokenomics Working Group agrees the milestone has been met and agrees with the calculation, an announcement will be sent via the Tokenomics-Announce mailing List
+    * The GSF will update the `extraBeneficiary` to an active PartyID controlled by that Super Validator. 
+    * ⅔ of Super Validator Operators will then assign a portion of the Unclaimed Rewards to be minted by the Applicant’s Validator, based on the calculation approved by the Tokenomics working group.
+
+* If any milestones and associated rewards are not achieved by the deadline
+    * Applicant will be notified they have not met a deliverable by the GSF 
+    * Remaining SV Weight assigned to the `extraBeneficiary` SV will be removed from the GSF node configuration, and the total SV weight of the GSF SV node will be reduced by the same amount by a vote of the Super Validators.
+    * The Tokenomics Working Group will make a recommendation to the SVs on what to do with the Unclaimed Rewards 
+* Applicant is subject to CIP-0045 : SV Operating Requirements
+    * If, at any time, the Applicant has been rewarded SV Weight > 2.5, they are required to operate their SV within 6 months of crossing that Weight
+
+## Appendix I – Motivation
+<a id="appendix-i--motivation"></a>
+
+* Enterprise-grade oracle infrastructure for data and cross-chain services is essential for the creation of scalable and compliant institutional use cases on the Canton network. Simultaneously, robust and decentralized oracle architecture is challenging to deliver and scale. 
+* The consequences for data and cross-chain infrastructure failures are dire, with broad impact across the dApps, chains, and users involved. Over $2.87B in value has been [exploited from insecure cross-chain infrastructure](https://defillama.com/hacks) to date. Examples include the [Ronin Bridge hack](https://www.bbc.com/news/technology-60933174) ($600m), [Wormhole bridge hack](https://thedefiant.io/news/defi/wormhole-exploit-320m) ($320M), [Nomad bridge hack](https://www.cnn.com/2022/08/03/tech/crypto-bridge-hack-nomad/index.html) ($190M), [Multichain bridge hack](https://www.chainalysis.com/blog/multichain-exploit-july-2023/) ($125M), [Cream Finance oracle exploit](https://news.bitcoin.com/cream-finance-suffers-130-million-hack/) ($130M), [Harmony bridge hack](https://www.cnbc.com/2022/06/24/hackers-steal-100-million-in-crypto-from-harmonys-horizon-bridge.html) ($100M), which lead to the loss of users funds along with severe [reputational and operational damage](https://www.coindesk.com/business/2024/03/05/fantom-seeks-money-back-from-multichains-200m-exploit) for blockchain networks that relied on that infrastructure.  
+* Chainlink has an [extensive history](https://blog.chain.link/chainlink-banking-capital-markets-announcements/) of working with financial institutions (e.g., [UBS](https://www.swift.com/news-events/press-releases/swift-ubs-asset-management-and-chainlink-successfully-complete-innovative-pilot-bridge-tokenized-assets-existing-payment-systems), [SBI](https://www.prnewswire.com/news-releases/sbi-digital-markets-ubs-asset-management-and-chainlink-complete-pilot-for-automated-fund-administration-and-transfer-agency-using-smart-contracts-302307816.html), [Swift](https://blog.chain.link/wp-content/uploads/2023/10/results_report_swift_interoperability_experiments_final_310823-2.pdf), [DTCC](https://www.dtcc.com/-/media/Files/Downloads/DTCC-Connection/Smart_NAV-Report.pdf), and many more covered below) to support their blockchain adoption strategies. This includes building custom data and interoperability solutions, defining unique business use cases, building smart contracts to enable core functionalities, and enabling the creation of complex transactions ready for a production environment.
+* Chainlink's robust infrastructure and extensive expertise significantly reduce the complexity and cost for TradFi institutions to engage with blockchain technologies (public or private) and transact with counterparties who are integrated with our platform in a compatible way, leveraging our privacy and compliance tooling suites critical for institutional-grade transactions. Chainlink’s highly secure and reliable [Cross-Chain Interoperability Protocol (CCIP)](https://chain.link/cross-chain)  accelerates the composability and connectivity of fragmented liquidity across public and private blockchains by enabling the flow of data and value between networks. 
+* Chainlink CCIP enables digital assets issued by financial institutions on other blockchains to move into the Canton network, while also supporting Canton as a launch point for new assets that can flow into other chain ecosystems where demand exists
+* Chainlink proposes bringing a unique three-part value proposition to the Canton Network. This consists of:
+    * Enabling current Canton users to implement use cases that require data oracles (such as proof of reserves) and/or cross-chain interoperability infrastructure; **seven have been identified thus far. The first use case will use PoR to support bridged collateral into the Canton Network using Bitcoin (wrapped iBTC).**
+    * Using CCIP to connect the Canton Network Global Synchronizer with over 50 public and permissioned blockchains, at the highest levels of security and reliability.
+    * Working with SBI Digital Markets to create a Canton Network on/off ramp for regulated digital assets, enabling the secure movement of such assets across jurisdictional boundaries and in accordance with regulatory requirements.
+
+## Appendix II – Why Chainlink?
+<a id="appendix-ii--why-chainlink"></a>
+
+1. **Chainlink is the backbone of blockchain and the #1 oracle platform in use today and for the past many years.** This includes:
+    * **Banking and Capital Markets** users and partners publicly announced include:
+        * FMIs and Exchanges: Swift, Euroclear, SBI Digital Markets, ADDX.
+        * Banks: ANZ, BanColombia, EmiratesNBD, Banco Inter.
+        * Asset Managers: UBS Asset Management, Franklin Templeton, Wellington Management, Caceis, Vontobel. 
+        * Central Banks: Monetary Authority of Singapore (MAS), Hong Kong Monetary Authority (HKMA), Central Bank of Brazil (BCB).
+    * **Enterprise:**
+        * Key users and node operators include: Sony, Vodafone, Sumitomo Corporation, Telefonica, Swisscom, T-systems (Deutsche Telekom).
+    * **Web3:**
+        * Chainlink secures 92% of total value secured by general purpose oracles.
+        * Chainlink enables 71% of the total DeFi Transaction Value secured by general purpose oracles.
+        * Chainlink powers 55% of DeFi protocols secured by general purpose oracles
+        * Powering the biggest DeFi projects including: Aave, Spark, Compound, Venus, dYdX, GMX etc.
+        * More than 50 public/permissioned blockchain networks integration with Chainlink + more private blockchains.
+        * Chainlink has surpassed $20 trillion in transaction value enabled (TVE) in March 2025.
+    * **Developers:**
+        * Over 2,300+ projects have integrated the Chainlink platform.
+        * Each year, over 50,000 developers build on and interact with the Chainlink platform through events and hackathons.
+        * With over 1.5 million members, the Chainlink community is among the most vibrant in Web3.
+2. **Chainlink offers a full suite of services on its platform at the intersection of DeFi and Traditional Finance**
+
+![alt_text](/cip-00XX/cip-00xx-fig-1.png)
+
+ * **Chainlink serves as a unified developer platform that provides all of the core services required to build advanced blockchain applications**, including secure access to real-world data, seamless cross-chain interoperability, verifiable offchain compute, and connectivity to existing legacy systems. Rather than combining a disjointed collection of various services from different vendors with varying security guarantees—which introduces significant complexity, higher costs, and increased developer friction—developers can instead simply compose multiple Chainlink services together through a [programmable runtime environment](https://blog.chain.link/introducing-chainlink-runtime-environment/) to meet their unique use cases, while retaining the highest level of security and reliability. 
+* **Onchain Oracle Data:**
+    * **Push-Based Data Feeds** provide financial market data and are widely adopted by lending protocols such as Aave, Compound, Spark, along with hundreds of DeFi applications, opening chains to a diverse community of financial applications. 
+    * **Pull-Based Data Streams & DataLink** provide low-latency, sub-second market data for tens of thousands of assets, supporting high-frequency DeFi applications such as derivative markets like GMX.
+    * **[Proof of Reserve ](https://chain.link/education-hub/proof-of-reserves)(PoR)** provides transparency into the offchain or cross-chain reserves backing tokenized assets, wrapped tokens, and cross-chain assets, enabling secure minting use cases where tokens can only be minted if sufficient collateral has been verified.
+    * **Net Asset Value (NAV) **data is crucial to ensure accurate valuations of underlying funds and Chainlink is the only decentralised oracle platform offering NAV feeds supporting top-tier fund managers/administrators such as Fidelity International, APEX, and other key teams. This NAV data opens chains to securely integrate institutional-grade assets, providing greater transparency, reducing counterparty risk, and expanding access to liquidity pools traditionally reserved for institutional investors. 
+* **Connectivity with off-chain systems:**
+    * **[Chainlink and Swift](https://www.swift.com/news-events/press-releases/swift-unlocks-potential-tokenisation-successful-blockchain-experiments)** have been working together for 7+ years and recently developed a landmark solution enabling financial institutions to re-use their existing Swift infrastructure and financial messaging standards to trigger transactions across any public or private blockchain network. Connectors with other off-chain systems are under development.
+    * **[Chainlink Runtime Environment](https://blog.chain.link/introducing-chainlink-runtime-environment/) (CRE)** provides a secure offchain computing environment for coordinating activity across blockchains and existing systems. Complex transactions take the form of programmable workflows that can compose multiple Chainlink services together while enabling the transfer of data and value between any onchain or offchain system.  
+    * **[Cross-Chain Interoperability Protocol](https://chain.link/cross-chain) (CCIP)** provides an unmatched level of security for cross-chain data and value transfer.
+3. **Chainlink provides unparalleled security and reliability**
+ * Chainlink’s decentralized oracle networks (DONs) have provided the highest level of security and reliability even in the most extreme market events (e.g., 2020 Covid Crash, 2022 FTX and Terra collapses, 2025 ByBit hack, etc) since Chainlink’s mainnet launch in 2019. 
+* Chainlink’s unmatched security and reliability has enabled users to truly scale across the data oracle (Data Feeds / Data Streams), cross-chain messaging (CCIP), and offchain computation stack. Chainlink’s reputation of prioritizing security without compromise can help ensure that the largest TradFi institutions in the world have the confidence required to deploy assets on chain. 
+     * The [Five Levels of Cross-Chain Security](https://blog.chain.link/five-levels-cross-chain-security/) outlines a framework for evaluating the security of cross-chain messaging protocols and highlights the key risks. **Chainlink CCIP operates at the fifth and highest level of security by using a Defense-in-Depth approach and multiple decentralized oracle networks built on the industry’s most battle-tested oracle infrastructure** ($20T+ in TVE & $75B in peak TVS), along with 24/7 risk monitoring, an independent Risk Management Network, granular transfer rate limits, and more ensuring the most secure and resilient infrastructure on the market. 
+* **Chainlink continues to enhance CCIP to meet the needs of regulated financial markets**, this includes:
+    * The recent launch of the [Chainlink Platform Privacy Suite.](https://blog.chain.link/ccip-private-transactions-blockchain-privacy-manager/) This allows institutions to integrate their private blockchain networks with existing systems, such as traditional enterprise backends, while limiting onchain data exposure. In addition, it leverages a novel onchain encryption/decryption protocol to enable institutions to transact across multiple private blockchains using the public CCIP network, while keeping the transaction details fully confidential.
+    * The upcoming launch of the **Chainlink Compliance Service**, an interoperable smart contract toolkit that connects real-world identity and compliance data with on-chain financial systems, enabling complex financial transactions across multiple jurisdictions. It can be used to define and enforce compliance transactional policies at the organisational, jurisdictional or global level without the need for a single owner/operator. The compliance service enables institutions to engage with a composable framework for setting up, managing, and reporting compliance requirements for digital assets across any public and private blockchain networks. It also enables the configuration of policies and rules, the management of investor identities, and the enforcement of compliance controls. Asset issuers can define transaction conditions, verify their fulfillment, and provide proof of enforcement to regulatory bodies.
+
+## Appendix III - Chainlink’s Scope of Work — A Snapshot
+<a id="appendix-iii--chainlinks-scope-of-work----a-snapshot"></a>
+
+Beyond our industry leading activity in Web3, Chainlink is [actively working with some of the world’s largest financial institutions](https://blog.chain.link/chainlink-banking-capital-markets-announcements/) (e.g., Swift, DTCC, UBS, SBI, State Street, detailed below), helping them define their business use case strategies, building smart contracts for core capabilities and enabling them to actively bring these complex systems onchain into production. Our focus is on powering their progress in adopting blockchain technology. 
+
+Through this work, we have obtained a deep understanding of the intricacies related to banking and capital markets within traditional finance, including the immense complexity they need to handle to deliver intricate transaction flows engaging numerous counterparties, vast amounts of data, and deeply entrenched legacy systems. 
+
+**Below we provide examples of our work with leading financial institutions:**
+
+
+* **[UBS Asset Management and SBI Digital Markets](https://www.prnewswire.com/news-releases/sbi-digital-markets-ubs-asset-management-and-chainlink-complete-pilot-for-automated-fund-administration-and-transfer-agency-using-smart-contracts-302307816.html)** collaborated with Chainlink to demonstrate the implementation of a tokenized fund and digital transfer agent smart contract that leveraged the Chainlink platform and CCIP to trigger validated minting/burning of the tokenized fund across the Arbitrum and Ethereum networks. 
+
+![alt_text](/cip-00XX/cip-00xx-fig-2.png)
+
+
+* **[Swift](https://blog.chain.link/wp-content/uploads/2023/10/results_report_swift_interoperability_experiments_final_310823-2.pdf)**, the interbank messaging network used by 11,500+ banks globally, collaborated with Chainlink and 12+ of the world’s largest financial institutions and financial market infrastructures—including ANZ Bank, BNP Paribas, BNY Mellon, Citi, Clearstream, Euroclear, Lloyds Banking Group, SIX Digital Exchange (SDX), and The DTCC—to successfully demonstrate how Chainlink CCIP provides a secure and scalable way for Swift member banks to transfer tokenized assets across any public/private blockchains. This solution is now in the pre-production phase, as [recently announced](https://www.youtube.com/watch?v=AAfmgbmoAgs) at Swift’s 2024 Sibos conference. 
+
+![alt_text](/cip-00XX/cip-00xx-fig-3.png)
+
+
+
+* **[Swift](https://blog.chain.link/wp-content/uploads/2023/10/results_report_swift_interoperability_experiments_final_310823-2.pdf)**, the interbank messaging network used by 11,500+ banks globally, collaborated with Chainlink and 12+ of the world’s largest financial institutions and financial market infrastructures—including ANZ Bank, BNP Paribas, BNY Mellon, Citi, Clearstream, Euroclear, Lloyds Banking Group, SIX Digital Exchange (SDX), and The DTCC—to successfully demonstrate how Chainlink CCIP provides a secure and scalable way for Swift member banks to transfer tokenized assets across any public/private blockchains. This solution is now in the pre-production phase, as [recently announced](https://www.youtube.com/watch?v=AAfmgbmoAgs) at Swift’s 2024 Sibos conference. 
+
+![alt_text](/cip-00XX/cip-00xx-fig-4.png)
+
+* **[Coinbase Project Diamond](https://www.prnewswire.com/news-releases/coinbases-project-diamond-strategically-integrates-the-chainlink-standard-to-scale-institutional-adoption-of-digital-assets-302327790.html)**, a compliant digital asset platform for global institutions, is adopting the Chainlink standard as infrastructure for powering the full lifecycle management of tokenized assets. By natively integrating the Chainlink standard, Coinbase’s Project Diamond platform can now offer data and cross-chain connectivity in a secure and compliant manner for institutional adopters. Chainlink CCIP will enable fund managers and asset issuers to quickly scale their tokenized assets across public and private blockchains. 
+* **[The Depository Trust & Clearing Corporation](https://www.dtcc.com/-/media/Files/Downloads/DTCC-Connection/Smart_NAV-Report.pdf) (DTCC)**, the world’s largest securities settlement system that processes $3+ quadrillion annually, collaborated with Chainlink and 10 of the world’s largest financial institutions—including American Trust Custody, American Century Investments, BNY Mellon, Edward Jones, Franklin Templeton, Invesco, JP Morgan, MFS, State Street, and US Bank—to successfully demonstrate how Chainlink CCIP can make mutual fund NAV data available across any public/private blockchain.
+
+![alt_text](/cip-00XX/cip-00xx-fig-5.png)
+
+* **[Euroclear and Swift](https://pages.chain.link/hubfs/e/transforming-asset-servicing.pdf)** collaborated with Chainlink and some of the world’s largest financial institutions, including UBS, Franklin Templeton, Wellington Management, CACEIS, Vontobel, and Sygnum Bank, to launch an industry initiative to combine advancements in AI, oracles, CCIP, and blockchains to solve a long-standing problem in corporate actions—the lack of real-time standardized data in fragmented markets like Europe
+
+![alt_text](/cip-00XX/cip-00xx-fig-6.png)
+
+* **[The Central Bank of Brazil (BCB)](https://www.prnewswire.com/news-releases/chainlink-joins-banco-inter-microsoft-and-7comm-consortium-to-support-trade-finance-use-case-in-phase-2-of-drex-pilot-302309772.html)** selected Banco Inter alongside Chainlink, Microsoft Brazil, and 7COMm to build a trade finance solution for the second phase of Brazil’s [Drex](https://www.bcb.gov.br/en/financialstability/drex_en) CBDC project. It leverages Chainlink CCIP and blockchain technology to automate supply chain management and improve trade finance processes.
+
+![alt_text](/cip-00XX/cip-00xx-fig-7.png)
+
+* **[The Australia and New Zealand Banking Group Limited](https://chain.link/resources/cross-chain-tokenized-asset-settlement) (ANZ Bank)**, one the world’s largest banks with $1+ trillion in total assets under management, collaborated with Chainlink to successfully demonstrate how Chainlink CCIP can power the cross-border, cross-chain, and cross-currency settlement of tokenized assets. CCIP’s Programmable Token Transfers condensed a complex set of actions involving multiple users, blockchains, and assets down to a single instruction.
+
+![alt_text](/cip-00XX/cip-00xx-fig-8.png)
+
+* **[The Monetary Authority of Singapore (MAS)’s Project Guardian](https://blog.chain.link/chainlink-project-guardian/)** is a collaborative initiative involving policymakers and the world’s largest financial institutions and market infrastructures. Project Guardian’s goal is to use blockchain infrastructure to tangibly demonstrate how tokenization and smart contracts are transforming the financial markets through asset tokenization. Chainlink has been an integral partner to the institutions in Project Guardian, and recently announced [several new use cases](https://blog.chain.link/chainlink-project-guardian/) including:
+    * **[ANZ and ADDX](https://addx.co/files/ADDX_ANZ_Chainlink_Press_Release_6_Nov_2024_4f0520e99d.pdf)** collaborated with Chainlink on a use case supporting the entire lifecycle of tokenized commercial paper. The use case leverages ADDX’s investment platform, ANZ’s Digital Asset Services, and Chainlink CCIP to expand access to tokenized assets across borders while helping users meet confidentiality requirements. The project was the first to use [CCIP Private Transactions](https://blog.chain.link/ccip-private-transactions-blockchain-privacy-manager/) capability between two private blockchains (an Ethereum-based chain and a Valdium CDK chain) to meet regulatory requirements by maintaining end-to-end data confidentiality. 
+
+![alt_text](/cip-00XX/cip-00xx-fig-9.png)
+
+
+**Examples of Chainlink’s Work With Leading Web3 Protocols and Asset Issuers:**
+
+
+* **[Aave](https://www.prnewswire.com/news-releases/aaves-gho-stablecoin-now-live-on-arbitrum-powered-by-chainlink-ccip-302187549.html)**, the leading DeFi lending market with over $20B TVL, integrated CCIP to enable native cross-chain transfers of their GHO stablecoin, supporting their multi-chain expansion with a bespoke white-glove deployment and inclusion as payment token on CCIP.
+
+![alt_text](/cip-00XX/cip-00xx-fig-10.png)
+
+
+* **[Lombard](https://www.lombard.finance/blog/lombard-and-chainlink-partner-to-set-the-industry-standard-for-bitcoin-in-de-fi/)**, with $1.8B TVL, adopted CCIP, PoR, and Price Feeds for its LBTC token. Lombard utilizes CCIP’s Token Developer Attestation functionality.
+
+![alt_text](/cip-00XX/cip-00xx-fig-11.png)
+
+
+
+* **[Lido](https://blog.lido.fi/lido-staking-goes-cross-chain-via-chainlink-ccip/)**, with over $17B TVL, launched Direct Staking, a CCIP-powered cross-chain staking solution that enables users to stake their ETH and receive wstETH directly on L2 networks. 
+
+![alt_text](/cip-00XX/cip-00xx-fig-12.png)
+
+
+A wider range of examples of our industry leading work is available to read in this [blog](https://blog.chain.link/chainlinks-work-with-major-banking-and-capital-markets-institutions/) about Chainlink’s Work With Swift, DTCC, Euroclear, and Major Banking and Capital Markets Institutions, as well as this [blog](https://blog.chain.link/chainlink-institutional-tokenization-announcements/) regarding Chainlink’s Work With Coinbase, Apex Group, Paxos, and Other Major Tokenized Asset Industry Institutions.
+
+## Disclaimer
+<a id="disclaimer"></a>
+
+Chainlink Labs’ work is offered “as is” without representations, guarantees, or warranties of any kind, on a commercially feasible basis and subject to the Canton Network’s acceptance of the Chainlink Labs terms of service (available at [Terms of Service – Chainlink Labs](https://chainlinklabs.com/terms)). The benefits are solely being made available to the Canton Network and not to any other party.
+
+## Copyright
+<a id="copyright"></a>
+
+This CIP is licensed under CC0-1.0: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
+## Changelog
+<a id="changelog"></a>
+
+* **2025-05-09:** Initial draft of the proposal.
+
+
+## Notes
+<a id="notes"></a>
+<a id="note_1"></a>
+[1]: Source: DeFiLlama. General Purpose Oracles are defined as non-internal oracles securing over 2 protocols.  
+<a id="note_1"></a>
+
+<a id="note_2"></a>
+[2]: Transaction value enabled (TVE) is calculated by taking the sum of the USD value associated with each transaction utilizing a Chainlink oracle.
