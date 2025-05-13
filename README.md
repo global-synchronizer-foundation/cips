@@ -48,3 +48,4 @@ Global Synchronizer CIPs
 | [cip-0051](/cip-0051) |  | Streamline onchain governance votes | Itai Segall | Governance  | Approved |
 | [cip-0054](/cip-0054) |  | Add Figment as a Weight 1 Super Validator | Eric Saraniecki, Jacob McCrum | Governance   | Approved |
 | [cip-0057](/cip-0057) |  | Add Quantstamp as a Weight 1 Super Validator | Eric Saraniecki | Governance  | Approved |
+| [cip-0060](/cip-0060/cip-0060.md) |  | Add Zero Hash as SV of Weight 7.5 | Eric Saraniecki | Governance  | Approved |
