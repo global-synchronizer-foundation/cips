@@ -51,4 +51,4 @@ Global Synchronizer CIPs
 | [cip-0055](/cip-0055) |  | Add Bitwave as a Weight 1 SV | Eric Saraniecki | Governance   | Approved |
 | [cip-0057](/cip-0057/cip-0057.md) |  | Add Quantstamp as a Weight 1 Super Validator | Eric Saraniecki | Governance  | Approved |
 | [cip-0058](/cip-0058/cip-0058.md) |  | Add IntellectEU as Weight 1 SV |Christopher Kelly | Governance  | Approved |
-
+| [cip-0059](/cip-0059/cip-0059.md) |  | Add Woodside AI as an SV of Weight 10 | Eric Saraniecki | Governance  | Approved |
