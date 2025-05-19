@@ -53,3 +53,4 @@ Global Synchronizer CIPs
 | [cip-0058](/cip-0058/cip-0058.md) |  | Add IntellectEU as Weight 1 SV |Christopher Kelly | Governance  | Approved |
 | [cip-0059](/cip-0059/cip-0059.md) |  | Add Woodside AI as an SV of Weight 10 | Eric Saraniecki | Governance  | Approved |
 | [cip-0060](/cip-0060/cip-0060.md) |  | Add Zero Hash as SV of Weight 7.5 | Eric Saraniecki | Governance  | Approved |
+| [cip-0061](/cip-0060/cip-0061.md) |  | Add 3Commas Capital as Tier-2 Super Validator | Dmitriy Larikov | Standards Track  | Draft |
