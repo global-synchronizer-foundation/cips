@@ -47,6 +47,7 @@ Global Synchronizer CIPs
 | [cip-0049](/cip-0049/cip-0049.md) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Draft |
 | [cip-0051](/cip-0051/cip-0051.md) |  | Streamline onchain governance votes | Itai Segall | Governance  | Approved |
 | [cip-0052](/cip-0052/cip-0052.md) |  | Monstera FZE as a SV  at Weight [3] | Eric Saraniecki | Governance   | Approved |
+| [cip-0053](/cip-0053/cip-0053.md) |  |  AngelHack as a Weight 2.5 SV | Eric Saraniecki | Governance   | Approved |
 | [cip-0054](/cip-0054/cip-0054.md) |  | Add Figment as a Weight 1 Super Validator | Eric Saraniecki, Jacob McCrum | Governance   | Approved |
 | [cip-0055](/cip-0055) |  | Add Bitwave as a Weight 1 SV | Eric Saraniecki | Governance   | Approved |
 | [cip-0056](/cip-0056/cip-0056.md) |  | Canton Network Token Standard | Simon Meier, Matteo Limberto, Moritz Kiefer | Standards Track   | Approved |
