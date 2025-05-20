@@ -96,3 +96,4 @@ Splice 0.4.0 and Canton 3.3 have been integrated and are completing functional a
 
 Changelog
 
+* **2025-05-20:** Initial draft of the proposal.
