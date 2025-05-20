@@ -1,7 +1,7 @@
 
   ## CIP:  CIP-00XX
 <pre>
-  Title: Synchronizer Migration with Downtime to Canton 3.3
+  Title: Synchronizer Migration with Downtime to Splice 0.4.0 / Canton 3.3
   Author:
     Curtis Hrischuk
     Marcin Ziolek
@@ -71,10 +71,10 @@ The Canton 3.3 release is available for upgrade.  It enables new features in Spl
 
 The Canton 3.3 release introduces the following new capabilities:
 - Easier application upgrades:  [Smart contract upgrading (SCU)](https://docs.daml.com/upgrade/smart-contract-upgrades.html#smart-contract-upgrade) that allows Daml models (packages in DAR files) to be updated transparently, provided guidelines in making application changes are followed.  
-- Support for the Canton Network Token Standard. SCU allows the CNTS to evolve without breaking changes.                                                                      
-- Enhancements for the interactive submission service (e.g., Time boundaries functions).  The interactive submission service is enabled by default.
-- The Canton JSON APv2 is available which is as fully featured as the gRPC LAPI: mirroring the LAPI’s gRPC functionality (e.g., ability to submit batches of commands, Daml interfaces). It follows industry standards such as [AsyncAPI](https://docs.digitalasset.com/build/3.3/explanations/json-api/asyncapi) (websocket) and [OpenAPI](https://docs.digitalasset.com/build/3.3/explanations/json-api/openapi.html) (synchronous, request-response), which enables the use of the associated tooling (e.g., generate language bindings at the discretion of the developer). 
-- A new approach to export and import of ACS snapshots, which is an improvement for any future [Synchronizer Upgrades with Downtime](https://docs.dev.sync.global/sv_operator/sv_major_upgrade.html#sv-upgrades), and will prepare Canton for zero-downtime protocol upgrades.
+- Support for the Canton Network Token Standard to evolve without breaking changes.
+- Added time boundaries functions for the interactive submission service.  
+- The Canton JSON APIv2 is available which is as fully featured as the gRPC LAPI: mirroring the LAPI’s gRPC functionality (e.g., ability to submit batches of commands, Daml interfaces). It follows industry standards such as [AsyncAPI](https://docs.digitalasset.com/build/3.3/explanations/json-api/asyncapi) (websocket) and [OpenAPI](https://docs.digitalasset.com/build/3.3/explanations/json-api/openapi.html) (synchronous, request-response), which enables the use of the associated tooling (e.g., generate language bindings at the discretion of the developer). 
+- A new approach to export and import of ACS snapshots that Splice can make use for [Synchronizer Upgrades with Downtime](https://docs.dev.sync.global/sv_operator/sv_major_upgrade.html#sv-upgrades).
 - A better package selection algorithm to select the package version that is common to  all validators that participate in a transaction,  when  a Dapp has multiple package versions deployed.  The new logic leverages the topology state of connected synchronizers to optimally select packages for transactions, ensuring they pass vetting checks on counter-participants.
 - Improvements to the offline root namespace key procedure.   Scripts are provided to initialize a participant node's identity using an offline root namespace key.
 - The Daml language introduces crypto primities which are useful for building bridges or wrapping tokens.
