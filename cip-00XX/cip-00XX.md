@@ -2,9 +2,8 @@
 
 <pre>
   CIP: CIP 00XX
-  Title: Add Chainlink as a Super Validator of Weight 10
-  Author: 
-    Fernando Luis Vázquez Cao
+  Title:Add Chainlink as a Super Validator of Weight 7.5 +
+  Author: Juan Gomez
   Status: Draft 
   Type: Governance 
   Created: 2025-05-09
@@ -30,17 +29,19 @@
 ## Abstract:
 <a id="abstract"></a>
 
-* Add Chainlink as a Weight 10 Super Validator.
+* Add Chainlink as a Super Validator of Weight 7.5 +
 * Chainlink commits to bringing its enterprise-grade oracle infrastructure to the Canton Network by natively integrating with the Canton Network Global Synchronizer and providing key Chainlink services to Canton users, starting with [Data Streams](https://docs.chain.link/data-streams), Smart Data including [Proof of Reserve (PoR)](https://chain.link/proof-of-reserve), and the [Cross-Chain Interoperability Protocol (CCIP)](https://chain.link/cross-chain).
 * The use of Data Streams, Proof of Reserve, CCIP, and other Chainlink services by Canton users will unlock new application use cases and value for the overall Canton network ecosystem.
 
 ## About Chainlink:
 <a id="about-chainlink"></a>
 
-* [Chainlink](https://chain.link/) is the global standard for connecting blockchains to real-world data, other blockchains, governments, and enterprise systems. Chainlink powers critical use cases across DeFi, banking, tokenized real world assets (RWAs), cross-chain, and more, and is widely adopted by major financial institutions, national governments, and top DeFi protocols, including Swift, DTCC, Monetary Authority of Singapore, Euroclear, Central Bank of Brazil, Fidelity International, UBS, Aave, GMX, Lido, and many more.
-* In the Web3[[1]](#note_1) space The Chainlink platform has operated in production for over half a decade and has secured over $75 B+ in DeFi TVL at its peak and has enabled over $20 trillion in transaction value enabled[[2]](#note_1) as of March 2025. With 300+ engineers and dedicated monitoring teams, Chainlink Labs is uniquely positioned to offer the depth of support and execution strength needed to operate secure cross-chain and data systems at scale.
-* In the Web3 space, Chainlink secures 92% of total value secured by general purpose oracles, enables 71% of the total DeFi Transaction Value secured by general purpose oracles and powers 55% of DeFi protocols secured by general purpose oracles. Chainlink also powers the biggest DeFi projects, including Aave, Spark, Compound, Venus, dYdX, GMX, etc., and has been integrated with more than 50 public/permissioned blockchain networks.
+* [Chainlink](https://chain.link/) is the global standard for connecting blockchains to real-world data, other blockchains, governments, and enterprise systems. Chainlink powers critical use cases across DeFi, banking, tokenized real world assets (RWAs), cross-chain, and more, and is widely adopted by major financial institutions, national governments, and top DeFi protocols, including Swift, DTCC, Monetary Authority of Singapore, Euroclear, Central Bank of Brazil, Fidelity International, UBS, Aave, GMX, Lido, and many more. 
+* In the Web3 space The Chainlink platform has operated in production for over half a decade and has secured over $75B+ in DeFi TVL at its peak and has enabled over $20 trillion in transaction value enabled as of March 2025. With 300+ engineers and dedicated monitoring teams, Chainlink Labs is uniquely positioned to offer the depth of support and execution strength needed to operate secure cross-chain and data systems at scale.
+* In the Web3 space, Chainlink secures 92% of total value secured by general purpose oracles, enables 71% of the total DeFi Transaction Value secured by general purpose oracles and powers 55% of DeFi protocols secured by general purpose oracles. Chainlink also powers the biggest DeFi projects, including Aave, Spark, Compound, Venus, dYdX, GMX, etc, and has been integrated with more than 50 public/permissioned blockchain networks.
 * Leading DeFi applications and regulated financial institutions alike are already using Chainlink’s offerings in key deployments, making it a widely used platform in DeFi and capital markets today.
+
+
 
 ## Deliverables for full SV Reward:
 <a id="deliverables-for-full-sv-reward"></a>
@@ -49,8 +50,8 @@
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|--------------------------------------------------|
 | Chainlink Oracle Infrastructure (Data Streams) integration to Canton | • Chainlink brings its enterprise grade Data Streams oracle infrastructure to the Canton Network by natively integrating with the Canton Network Global Synchronizer.                                                                                            | 180 days from CIP Approval     | 2.5                                              |
 | Smart Data (Proof of Reserve) Integration to Canton                  | • Chainlink enables SmartData services including PoR.                                                                                                                                                                                                               | 180 Days from CIP Approval     | 2.5                                              |
-| Cross Chain Interoperability Protocol (CCIP) integration to Canton   | • Chainlink enables CCIP service to connect the Canton Network Global Synchronizer with over 50 public and permissioned blockchains, at the highest levels of security and reliability.                                                                            | 365 Days from CIP Approval     | 2.5                                              |
-| Adoption Incentives                                                  | Category 1: Value-based incentives <br> • Chainlink enables current Canton users to implement live use cases which require cross-chain interoperability, proof of reserves and/or other Chainlink offerings; seven have been identified thus far. The first use case will use PoR to support bridged collateral into the Canton Network using Bitcoin (wrapped iBTC). Other potential users (at different stages of discussion) include: BX Digital, Goldman Sachs, HSBC, BNP Paribas, Broadridge and Nasdaq.<br> Category 2: Strategic adopter incentives  <br> Chainlink brings new users to the Canton network. This could be direct referral of new users (Web3/TradFi) and/or the launch of new offerings: (e.g. SBI Digital Markets to create a Canton Network on/off ramp for regulated digital assets, enabling the secure movement of such assets across jurisdictional boundaries and in accordance with regulatory requirements) | +365 Days from Product Integration | • 0.5 per live deployment on Canton AND/OR <br> 0.5 per new approved Participant and/or offering  <br> • Max up to 2.5 across both categories |
+| Cross Chain Interoperability Protocol (CCIP) integration to Canton and bridge adoption incentives | • Chainlink enables CCIP service to connect the Canton Network Global Synchronizer with over 50 public and permissioned blockchains, at the highest levels of security and reliability.  | 365 Days from CIP Approval     | See CIP 0065 - Bridge SV CIP  |
+| Adoption Incentives                                                  | Category 1: Value-based incentives <br> • Chainlink enables current Canton users to implement live use cases which require oracles, proof of reserves and/or other Chainlink offerings; seven have been identified thus far. The first use case will use PoR to support bridged collateral into the Canton Network using Bitcoin (wrapped iBTC). Other potential users (at different stages of discussion) include: BX Digital, Goldman Sachs, HSBC, BNP Paribas, Broadridge and Nasdaq <br> Category 2: Strategic adopter incentives  <br> Chainlink brings new users to the Canton network. This could be direct referral of new users (Web3/TradFi) and/or the launch of new offerings: (e.g. SBI Digital Markets to create a Canton Network on/off ramp for regulated digital assets, enabling the secure movement of such assets across jurisdictional boundaries and in accordance with regulatory requirements) | +365 Days from Product Integration | • 0.5 per live deployment on Canton AND/OR <br> 0.5 per new approved Participant and/or offering  <br> • Max up to 2.5 across both categories |
 
 ## Mechanics:
 <a id="mechanics"></a>
@@ -219,6 +220,7 @@ This CIP is licensed under CC0-1.0: [Creative Commons CC0 1.0 Universal](https:/
 <a id="changelog"></a>
 
 * **2025-05-09:** Initial draft of the proposal.
+* **2025-06-04**: Amendments to move the cross bridge part to and reference the Bridge SV CIP (CIP 0065).
 
 
 ## Notes
