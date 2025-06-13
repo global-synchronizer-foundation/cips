@@ -58,4 +58,5 @@ Global Synchronizer CIPs
 | [cip-0062](/cip-0062/cip-0062.md) |  | Synchronizer Migration with Downtime to Splice 0.4.0 / Canton 3.3| Curtis Hrischuk| Standards | Approved |
 | [cip-0063](/cip-0063/cip-0063.md) |  | Add Kaiko as a Super Validator of Weight 6.5 | Ambre Soubiran | Governance  | Approved |
 | [cip-0064](/cip-0064/cip-0064.md) |  | Delegateless Automation | Julien Tinguely | Standards Track  | Approved |
+| [cip-0065](/cip-0065/cip-0065.md) |  | Add Layer Zero, Wormhole, and Chainlink as SVs at Weight 4 each  |	Eric Saraniecki| Governance  | Approved |
 
