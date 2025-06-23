@@ -67,6 +67,9 @@ The CIP defines a process whereby, upon successful milestone verification, the T
 reward amount and the Super Validators assign a portion of unclaimed rewards to be minted. 
 This functionality leverages the standard voting process and introduces new ledger, off-ledger, and UI components to 
 support reward calculation, archival of unclaimed rewards, and minting of the corresponding Amulet.
+While motivated by the need to support milestone-based escrowed rewards, the proposed mechanism is more general.
+It enables Super Validators to mint any type of unclaimed reward for any reason, not limited to escrowed incentives.
+This flexibility supports future governance decisions and additional reward use cases beyond the scope of CIP-0058.
 
 This aligns with the first deliverable of [CIP-0058](https://github.com/global-synchronizer-foundation/cips/blob/main/cip-0058/cip-0058.md): _Enable escrow mechanisms to ensure Super Validators deliver value in return for rewards_.
 
