@@ -22,6 +22,35 @@ This CIP is licensed under CC0-1.0: [Creative Commons CC0 1.0 Universal](https:/
 
 This CIP introduces a new on-ledger voting-based governance flow that enables Super Validators (SVs) to propose the creation of `UnallocatedUnclaimedActivityRecord` contracts, representing authorized but not yet allocated Amulet rewards.
 
+### High-level overview
+
+To contextualize the protocol and governance changes introduced by this CIP, we outline both a generalized workflow and a specific escrow-based scenario. These flows illustrate how unminted rewards transition through governance-controlled minting, and how this mechanism enables milestone-based issuance of Canton Coin while preserving decentralization, auditability, and escrow guarantees.
+
+#### General Flow
+
+- Weighted activity records are assigned to a party based on their contributions within a round.
+
+- If the assigned party fails to mint their rewards before the round concludes, those rewards are moved into the unminted pool.
+
+- At a later stage—following an off-chain agreement—someone may propose that a specified party should receive a portion of the unminted pool.
+
+- An on-chain vote is initiated to authorize the minting. Super Validators review and either approve or reject the proposal.
+
+
+
+#### Specific Flow
+
+- The GSF node hosts an SV weight obo an SV in an escrow agreement.
+- The GSF hosts a party for that SV on a separate GSF operated Validator, and names that party as the beneficiary of the SV weight.
+- The SVs, in each round, credit the GSF SV node for work/activity, and create a weighted activity records assigned coupon, which the GSF node splits among all the SV rights hosted on that node.
+- The GSF specifically disables the final minting action for all escrowed SV parties.
+- All the coin earned by escrowed parties goes into the unminted pool and loses all connection to any party.
+- When the SV passes a milestone, it then searches all the history to find weighted activity records assigned coupons that had been assigned to it, normalized / trimmed down to the weight it wants to claim.
+- The SV presents these records, and the resulting escrow claim, to the GSF.
+- GSF does its own calculation and makes a recommendation via an onchain vote.
+- SVs accept or reject the vote.
+
+
 ### Governance Specification
 
 - A new action requiring confirmation (`SRARC_CreateUnallocatedUnclaimedActivityRecord`) is added to `DsoRules_ActionRequiringConfirmation`.
