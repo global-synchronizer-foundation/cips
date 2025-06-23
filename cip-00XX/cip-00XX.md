@@ -159,9 +159,9 @@ Rejected due to:
 The chosen approach introduces a clean separation of concerns:
 
 - Voting captures intent and approval.
-- SVs allocate funding (UnclaimedRewards) without minting.
+- SVs allocate funding (`UnclaimedReward` contracts) without minting.
 - The `UnclaimedActivityRecord` encapsulates minting rights in a transferable, on-ledger structure.
-- Beneficiaries receive Amulets through a self-transfer initiated by automation in the Wallet App, maintaining signature and stakeholder integrity.
+- Beneficiaries receive `Amulet` through a self-transfer initiated by automation in the Wallet App, maintaining signature and stakeholder integrity.
 - The model avoids redundant templates or triggers and fits well into Splice’s composable architecture.
 
 This design was refined through multiple iterations, peer reviews, and discussions across the engineering and product teams, converging on a solution that meets both technical constraints and governance objectives.
