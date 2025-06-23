@@ -78,12 +78,12 @@ This aligns with the first deliverable of [CIP-0058](https://github.com/global-s
 
 This proposal introduces a governance-backed, automated reward allocation mechanism that ensures Super Validators (SVs) never act as direct issuers of Amulets. Instead, it relies on existing voting infrastructure, explicit reward tracking, and on-ledger automation. The design satisfies the CIP-0058 objective of enabling escrowed value transfer with network approval, while preserving clear separation of duties between reward authorization and execution.
 
-Super Validators need a way to reward parties for milestone-based work without directly issuing Amulets. To meet this goal, the system must:
+Super Validators need a way to reward parties for milestone-based work without directly issuing Amulets. The proposed CIP process allows:
 
-- Let SVs propose reward allocations through a formal vote.
-- Track and escrow those rewards in a verifiable, on-ledger structure.
-- Allow beneficiaries to receive their rewards without needing manual approval or signature from SVs.
-- Ensure archival of previous reward entitlements (UnclaimedReward contracts) during the minting process.
+- Proposing reward allocations through a formal vote explicitly approving the proposal.
+- Tracking and escrowing those rewards in a verifiable, on-ledger structure.
+- Allowing beneficiaries to receive their rewards without needing manual approval or signature from SVs.
+- Ensuring archival of previous reward entitlements (UnclaimedReward contracts) during the minting process.
 
 The final design introduces `UnallocatedUnclaimedActivityRecord` as a bridge between governance and execution. It supports clear auditability by representing approved but not yet funded reward intents. Once funded, these result in the creation of an `UnclaimedActivityRecord`, which serves as a transferable representation of reward entitlement. The `UnclaimedActivityRecord` is then consumed during a self-transfer initiated by automation in the Wallet App, resulting in the minting of the corresponding Amulet.
 
