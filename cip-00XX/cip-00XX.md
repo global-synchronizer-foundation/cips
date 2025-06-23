@@ -40,7 +40,7 @@ To contextualize the protocol and governance changes introduced by this CIP, we 
 
 #### Specific Flow
 
-- The GSF node hosts an SV weight obo an SV in an escrow agreement.
+- The GSF node hosts an SV weight on behalf of an SV in an escrow agreement.
 - The GSF hosts a party for that SV on a separate GSF operated Validator, and names that party as the beneficiary of the SV weight.
 - The SVs, in each round, credit the GSF SV node for work/activity, and create a weighted activity records assigned coupon, which the GSF node splits among all the SV rights hosted on that node.
 - The GSF specifically disables the final minting action for all escrowed SV parties.
