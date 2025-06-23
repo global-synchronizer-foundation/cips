@@ -38,7 +38,7 @@ This CIP introduces a new on-ledger voting-based governance flow that enables Su
 
 ### Minting Mechanism
 
-- `UnclaimedActivityRecord` is introduced as a new transferable on-ledger asset.
+- `UnclaimedActivityRecord` is introduced as a new type of activity record that can be minted.
 - It is added as a new variant (`InputUnclaimedActivityRecord`) within the existing `TransferInput` type.
 - This input is consumed by `AmuletRules_Transfer`, which mints the corresponding Amulet during a self-transfer executed by automation in the Wallet App (`CollectRewardsAndMergeAmuletsTrigger`).
 
