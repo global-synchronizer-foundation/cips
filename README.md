@@ -58,4 +58,5 @@ Global Synchronizer CIPs
 | [cip-0062](/cip-0062/cip-0062.md) |  | Synchronizer Migration with Downtime to Splice 0.4.0 / Canton 3.3| Curtis Hrischuk| Standards | Approved |
 | [cip-0063](/cip-0063/cip-0063.md) |  | Add Kaiko as a Super Validator of Weight 6.5 | Ambre Soubiran | Governance  | Approved |
 | [cip-0064](/cip-0064/cip-0064.md) |  | Delegateless Automation | Julien Tinguely | Standards Track  | Approved |
+| [cip-0066](/cip-0066/cip-0066.md) |  | Mint Canton Coin from Unminted/Unclaimed Pool | Jose Velasco| Tokenomics | Approved |
 
