@@ -3,7 +3,7 @@
 <pre>
   CIP: CIP 00XX
   Title:  One-Time Allocation of Historical Unclaimed Rewards to GSF
-  Author: GSF Governance Committee
+  Author: Eric W Saraniecki 
   Status: Draft 
   Type: Meta / Tokenomics 
   Created: 2025-06-13
