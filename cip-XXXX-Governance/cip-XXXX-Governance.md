@@ -1,5 +1,9 @@
 Please make a copy of this folder for any new CIP. Any artifacts for that CIP should go inside that folder. 
+
+
 This template applies only to CIPs that assign Super Validator weights in return for specified deliverables. Other CIPs should use the standard template. 
+
+
 More information can be found in [CIP-0000](../../cips/cip-0000/cip-0000.md).
 
 ## Title
