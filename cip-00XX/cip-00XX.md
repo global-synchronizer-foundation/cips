@@ -47,8 +47,8 @@ GSF has played a foundational role in establishing and maintaining the systems t
 * **Reference Date**: Snapshot to be taken at a designated block height or timestamp to establish the reward pool eligible for reallocation
 
 ## Actions: 
-* IEU to calculate amount of unclaimed rewards to be assigned to the GSF as of a specific block height
-* IEU to initiate on-chain process for GSF to mint unclaimed coins when ready
+* GSF SV Operator to calculate amount of unclaimed rewards to be assigned to the GSF as of a specific block height
+* GSF SV Operator to initiate on-chain process for GSF to mint unclaimed coins when ready
 
 ## Copyright
 
