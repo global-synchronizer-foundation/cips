@@ -30,9 +30,8 @@ in the issuance curve that would be used if rounds advanced one by one starting 
 
 ### SV Application
 
-The SV Application is modified so that it reads the new optional flag `SPLICE_APP_SV_INITIAL_ROUND` defaulted to 0.
-Each SV Application compares its value to its onboarding sponsor's value when joining after a reset. 
-This ensures that a misconfiguration by either the sponsor or the joining node is caught.
+SV1 will read the new optional flag `SPLICE_APP_SV_INITIAL_ROUND` defaulted to 0 and set it as initial round.
+SVs joining an already bootstrapped network will take the initial round from their sponsor.
 
 When initializing the network, this value is passed as an argument to the Daml choice `DsoRules_Bootstrap`.
 
@@ -44,9 +43,10 @@ We want it to align with MainNet.
 
 ### Risks and mitigations
 
-All SVs must set the value and inconsistent configurations are caught so mistakes by any SV during the reset will be caught.
-
 There is no risk on MainNet as this code is only used on network initialization.
+
+If SV1 uses the wrong initial round configuration, the network will be bootstrapped with the wrong round. 
+This can be recovered by resetting again and fixing the initial round. This is not any worse than the current state where we always start with round zero, the wrong round.
 
 ## Backwards compatibility
 
