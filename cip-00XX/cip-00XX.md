@@ -1,7 +1,7 @@
-## CIP 00XX
+## CIP 0067
 
 <pre>
-  CIP: CIP 00XX
+  CIP: CIP 0067
   Title:  One-Time Allocation of Historical Unclaimed Rewards to GSF
   Author: Eric W Saraniecki 
   Status: Draft 
