@@ -2,7 +2,7 @@
 
 <pre>
  CIP: CIP XXXX
- Title: Bootstrap splice node from non-zero round
+ Title: Bootstrap network from non-zero round
  Author: Julien Tinguely
  Comments-Summary: No comments yet
  Status: Draft
@@ -34,19 +34,17 @@ The SV Application is modified so that it reads the new optional flag `SPLICE_AP
 Each SV Application compares its value to its onboarding sponsor's value when joining after a reset. 
 This ensures that a misconfiguration by either the sponsor or the joining node is caught.
 
-The founding node passes its value as argument of the Daml choice `DsoRules_Bootstrap`.
+When initializing the network, this value is passed as an argument to the Daml choice `DsoRules_Bootstrap`.
 
 ## Motivations
 
-The main motivation for this change is to reset TestNet with an initial round close to the one running in MainNet for the future TestNet resets.
+The main motivation for this change is to reset TestNet with an initial round close to the one running in MainNet for the future resets.
 MainNet continuously progresses through rounds and forcing TestNet to restart from round zero creates a significant gap, especially in the coin issuance.
 We want it to align with MainNet.
 
 ### Risks and mitigations
 
-When an SV first joins, it checks whether the configured `initialRound` matches its sponsor SV's initial round
-to ensure all SV Applications use the same round. This round is dumped into its user metadata so that scan can read it.
-SV applications that do not set the initial round correctly will not be able to start.
+All SVs must set the value and inconsistent configurations are caught so mistakes by any SV during the reset will be caught.
 
 There is no risk on MainNet as this code is only used on network initialization.
 
