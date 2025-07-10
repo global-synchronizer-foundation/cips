@@ -17,41 +17,38 @@
 This CIP proposes to modify the network's bootstrapping process allowing SV nodes to start from a pre-configured non-zero round. 
 Currently, on network resets, all SV nodes begin at round zero, which also means they revert to the initial coin issuance curve. 
 Our goal is to enable network resets that maintain historical round progression, rather than resetting to zero. 
-This approach aims to better align with MainNet's ongoing state.
+This approach aims to better align TestNet with MainNet's ongoing state.
 
 ## Specification
 
 ### Daml
 
-A new optional argument `initialRound` is added to the `DsoRules_Bootstrap` choice. 
-When provided, this value is used as the initial round in the network and changes the issuance periods accordingly.
+A new optional argument `initialRound` is added to the `DsoRules_Bootstrap` choice.
+When provided, this value is used as the initial round in the network so rather than creating round 0, 1 and 2 when initializing 
+we create `initialRound`, `initialRound + 1`, `initialRound + 2`. The rounds are created with `issuingFor` set to the same time 
+in the issuance curve that would be used if rounds advanced one by one starting from 0.
 
 ### SV Application
 
 The SV Application is modified so that it reads the new optional flag `SPLICE_APP_SV_INITIAL_ROUND` defaulted to 0.
-Each SV Application compares its value to its onboarding sponsor's value before to save it to the user metadata to ensure
-all SV nodes use the same initial round.
+Each SV Application compares its value to its onboarding sponsor's value when joining after a reset. 
+This ensures that a misconfiguration by either the sponsor or the joining node is caught.
 
-The founding node passes its value as argument of the Daml choice `DsoRules_Bootstrap`. 
-
-### Scan Application
-
-Scans reads the initial round from its SV user metadata.
-
-The `ScanAggregator` component within the Scan Application is updated to consider the initial round as the first round.
-Instead of backfilling and aggregating data from round 0, the initial round will determine the starting point.
+The founding node passes its value as argument of the Daml choice `DsoRules_Bootstrap`.
 
 ## Motivations
 
-The main motivation for this change is to reset TestNet with an initial round close to the one running in MainNet for the upcoming TestNet reset scheduled in September.
+The main motivation for this change is to reset TestNet with an initial round close to the one running in MainNet for the future TestNet resets.
 MainNet continuously progresses through rounds and forcing TestNet to restart from round zero creates a significant gap, especially in the coin issuance.
 We want it to align with MainNet.
 
 ### Risks and mitigations
 
-On every SV Application initialization, it checks whether the configured initialRound matches its sponsor SV's initial round
+When an SV first joins, it checks whether the configured `initialRound` matches its sponsor SV's initial round
 to ensure all SV Applications use the same round. This round is dumped into its user metadata so that scan can read it.
 SV applications that do not set the initial round correctly will not be able to start.
+
+There is no risk on MainNet as this code is only used on network initialization.
 
 ## Backwards compatibility
 
