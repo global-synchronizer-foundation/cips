@@ -53,13 +53,10 @@ Stats:
 * Applicant is subject to CIP-0045 : SV Operating Requirements
     * If, at any time, the Applicant has been rewarded SV Weight > 2.5, they are required to operate their SV within 6 months of crossing that Weight
 
-
-
 ## Copyright
 
 This CIP is licensed under CC0-1.0: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Changelog
 
-* **2025-04-21:** Initial draft of the proposal.
-* **2025-06-03:** Approved CIP
+* **2025-07-11:** Initial draft of the proposal.
