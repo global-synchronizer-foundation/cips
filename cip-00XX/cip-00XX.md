@@ -1,0 +1,65 @@
+## CIP 00XX
+
+<pre>
+ CIP: CIP 00XX
+ Title: Add Ledger as an SV of Weight 5
+ Author: Eric W Saraniecki 
+ Status: Draft
+ Type: Governance
+ Created: 2025-07-11
+ Approved: TBD
+ License: CC0-1.0
+</pre>
+
+## Abstract
+
+Add Ledger as an SV of Weight 5
+
+## About Applicant
+
+Ledger is the global leader in security and infrastructure solutions for critical digital assets and blockchain applications. Through Ledger Live and Ledger Enterprise, Ledger provides comprehensive self-custody solutions trusted by millions of individuals and enterprises globally, safeguarding assets across the blockchain ecosystem.
+
+Stats:
+* \> greater than 6 million devices sold globally
+* \> $1 trillion in value secured
+* Ledger Live supports \> 5 million active users monthly
+
+## Deliverables for Full SV Reward
+
+| Deliverable | Acceptance Criteria | Deadline | Weight Earned |
+|-------------|--------------------|----------|---------------|
+| **Ledger Live support for Canton Token Standard** | • Ledger Live customers can self-custody any asset on Canton adhering to the Canton Token Standard | +180 days from CIP approval | 0.5 |
+| **Ledger Enterprise support for Canton Token Standard** | • Ledger Enterprise customers can self-custody any asset on Canton adhering to the Canton Token Standard | +180 days from CIP approval | 0.5 |
+| **Acceleration Bonus (Ledger Live)** | • At least one Ledger Live customer completes a Mainnet transaction<br>• Delivered ≤ 60 days: bonus +2<br>• Delivered ≥ 180 days: bonus +0<br>• Linear scale between 60 and 180 days (e.g., day 120 ⇒ bonus +1) | +180 days from CIP approval | Max 2 |
+| **Adoption Bonus** | • Drive Canton adoption among existing Ledger customers across Ledger Live and Ledger Enterprise | +180 days from going live | + 0.5 per $1.5b of assets transferred up to a maximum of +2 |
+
+### SV Mechanics
+
+* An `extraBeneficiary` PartyID associated with the ‘escrowed’ Super Validator will be setup by the GSF with an SV Weight at the maximum earnable weight in the CIP that granted rights to that Super Validator.
+    * The Applicant is responsible for all costs associated with the operation of the escrow SV
+    * The escrow SV will NOT mint rewards on a block by block basis
+    * All escrow SV rewards will go to the Unclaimed Rewards pool
+* ⅔ of the Super Validator Operators will update their configurations to allow GSF to host the full weight to be earned by the given Super Validator
+* Applicant is required to present proof of successful completed milestones to the Tokenomics Working Group
+    * Applicant is required to present a calculation for number of Canton Coin it should earn for meeting the requirements of the milestone
+* If the Tokenomics Working Group agrees the milestone has been met and agrees with the calculation, an announcement will be sent via the Tokenomics-Announce mailing List
+    * The GSF will update the `extraBeneficiary` to an active PartyID controlled by that Super Validator. 
+    * ⅔ of Super Validator Operators will then assign a portion of the Unclaimed Rewards to be minted by the Applicant’s Validator, based on the calculation approved by the Tokenomics working group.
+
+* If any milestones and associated rewards are not achieved by the deadline
+    * Applicant will be notified they have not met a deliverable by the GSF 
+    * Remaining SV Weight assigned to the `extraBeneficiary` SV will be removed from the GSF node configuration, and the total SV weight of the GSF SV node will be reduced by the same amount by a vote of the Super Validators.
+    * The Tokenomics Working Group will make a recommendation to the SVs on what to do with the Unclaimed Rewards 
+* Applicant is subject to CIP-0045 : SV Operating Requirements
+    * If, at any time, the Applicant has been rewarded SV Weight > 2.5, they are required to operate their SV within 6 months of crossing that Weight
+
+
+
+## Copyright
+
+This CIP is licensed under CC0-1.0: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+
+## Changelog
+
+* **2025-04-21:** Initial draft of the proposal.
+* **2025-06-03:** Approved CIP
