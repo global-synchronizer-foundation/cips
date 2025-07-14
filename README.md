@@ -45,6 +45,8 @@ Global Synchronizer CIPs
 | [cip-0047](cip-0047/cip-0047.md) |  | Featured App Activity Markers| Moritz Kiefer | Tokenomics   | Approved |
 | [cip-0048](/cip-0048/cip-0048.md) |  | Raising the Rewards Cap for Validators and Application Providers | Wayne Collier | Tokenomics  | Final |
 | [cip-0049](/cip-0049/cip-0049.md) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Draft |
+| [cip-0050](/cip-0050/cip-0050.md) |  | Controlled Validator Growth Through Trusted Operators | Wayne Collier  | Process   | Withdrawn |
+
 | [cip-0051](/cip-0051/cip-0051.md) |  | Streamline onchain governance votes | Itai Segall | Governance  | Approved |
 | [cip-0052](/cip-0052/cip-0052.md) |  | Monstera FZE as a SV  at Weight [3] | Eric Saraniecki | Governance   | Approved |
 | [cip-0053](/cip-0053/cip-0053.md) |  |  AngelHack as a Weight 2.5 SV | Eric Saraniecki | Governance   | Approved |
