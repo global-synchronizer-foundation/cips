@@ -59,5 +59,5 @@ Global Synchronizer CIPs
 | [cip-0063](/cip-0063/cip-0063.md) |  | Add Kaiko as a Super Validator of Weight 6.5 | Ambre Soubiran | Governance  | Approved |
 | [cip-0064](/cip-0064/cip-0064.md) |  | Delegateless Automation | Julien Tinguely | Standards Track  | Approved |
 | [cip-0066](/cip-0066/cip-0066.md) |  | Mint Canton Coin from Unminted/Unclaimed Pool | Jose Velasco| Tokenomics | Approved |
-| [cip-00XX](/cip-00XX/cip-00XX.md) |  | Add Ledger as an SV of Weight 5| Eric Saraniecki | Governance | Draft |
+| [cip-0069](/cip-0069/cip-0069.md) |  | Add Ledger as an SV of Weight 5| Eric Saraniecki | Governance | Draft |
 
