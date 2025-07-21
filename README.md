@@ -59,4 +59,5 @@ Global Synchronizer CIPs
 | [cip-0063](/cip-0063/cip-0063.md) |  | Add Kaiko as a Super Validator of Weight 6.5 | Ambre Soubiran | Governance  | Approved |
 | [cip-0064](/cip-0064/cip-0064.md) |  | Delegateless Automation | Julien Tinguely | Standards Track  | Approved |
 | [cip-0066](/cip-0066/cip-0066.md) |  | Mint Canton Coin from Unminted/Unclaimed Pool | Jose Velasco| Tokenomics | Approved |
+| [cip-0067](/cip-0067/cip-0067.md) |  | One-Time Allocation of Historical Unclaimed Rewards to GSF| Eric W Saraniecki | Meta / Tokenomics  | Approved |
 
