@@ -49,3 +49,4 @@ Global Synchronizer CIPs
 | [cip-0054](/cip-0054/cip-0054.md) |  | Add Figment as a Weight 1 Super Validator | Eric Saraniecki, Jacob McCrum | Governance   | Approved |
 | [cip-0057](/cip-0057/cip-0057.md) |  | Add Quantstamp as a Weight 1 Super Validator | Eric Saraniecki | Governance  | Approved |
 | [cip-0058](/cip-0058/cip-0058.md) |  | Add IntellectEU as Weight 1 SV |Christopher Kelly | Governance  | Approved |
+| [cip-0061](/cip-0061/cip-0061.md) |  | Add Chainlink as a Super Validator of Weight 7.5 | Thodoris Karakostas | Governance  | Approved |
