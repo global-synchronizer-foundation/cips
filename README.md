@@ -17,7 +17,7 @@ Global Synchronizer CIPs
 | [cip-0012](cip-0012/cip-0012.md) |  | Minor adjustments to Canton Coin processing, and Operational configuration, on the Global Synchronizer  | Wayne Collier, Moritz Kiefer | Standards Track   | Final |
 | [cip-0013](cip-0013/cip-0013.md) |  | Correct an error in the Daml models controlling the re-onboarding process for Super Validators who have been removed from the quorum| Wayne Collier, Moritz Kiefer | Standards Track   | Final |
 | [cip-0014](cip-0014/cip-0014.md) |  | Complete additional enhancements to the Scan API to facilitate tax accounting  | Eric Saraniecki| Governance   | Final |
-| [cip-0015](cip-0017/cip-0017.md) |  | Add Copper as a T3 (weight 1) Super Validator| Eric Saraniecki| Governance   | Final |
+| [cip-0015](cip-0015/cip-0015.md) |  | Add Copper as a T3 (weight 1) Super Validator| Eric Saraniecki| Governance   | Final |
 | [cip-0016](cip-0016/cip-0016.md) |  | Add Dfns as a T3 (weight 1) Super Validator | Eric Saraniecki| Governance   | Final |
 | [cip-0017](cip-0017/cip-0017.md) |  | Add MPCH as a T3 (weight 1) Super Validator | Eric Saraniecki| Governance   | Final |
 | [cip-0018](cip-0018/cip-0018.md) |  | Add Tradeweb as a T1 (weight 10) Super Validator | Eric Saraniecki| Governance   | Final |
