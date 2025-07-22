@@ -14,7 +14,7 @@ More information can be found in [CIP-0000](../../cips/cip-0000/cip-0000.md).
 * Comments-URI: <links to wiki page for comments>
   Status: <Draft | Active | Proposed | Deferred | Rejected |
            Withdrawn | Final | Replaced | Obsolete>
-  Type: <Standards Track | Governance | Tokenomics | Process | Informational>
+  Type: <Standards Track | Tokenomics | Process | Informational>
   Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
   License: <abbreviation for approved license(s)>
 * License-Code: <abbreviation for code under different approved license(s)>
