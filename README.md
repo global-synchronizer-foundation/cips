@@ -56,10 +56,13 @@ Global Synchronizer CIPs
 | [cip-0058](/cip-0058/cip-0058.md) |  | Add IntellectEU as Weight 1 SV |Christopher Kelly | Governance  | Approved |
 | [cip-0059](/cip-0059/cip-0059.md) |  | Add Woodside AI as an SV of Weight 10 | Eric Saraniecki | Governance  | Approved |
 | [cip-0060](/cip-0060/cip-0060.md) |  | Add Zero Hash as SV of Weight 7.5 | Eric Saraniecki | Governance  | Approved |
+| [cip-0061](/cip-0061/cip-0061.md) |  | Add Chainlink as a Super Validator of Weight 7.5 | Thodoris Karakostas | Governance  | Approved |
 | [cip-0062](/cip-0062/cip-0062.md) |  | Synchronizer Migration with Downtime to Splice 0.4.0 / Canton 3.3| Curtis Hrischuk| Standards | Approved |
 | [cip-0063](/cip-0063/cip-0063.md) |  | Add Kaiko as a Super Validator of Weight 6.5 | Ambre Soubiran | Governance  | Approved |
 | [cip-0064](/cip-0064/cip-0064.md) |  | Delegateless Automation | Julien Tinguely | Standards Track  | Approved |
+| [cip-0065](/cip-0065/cip-0065.md) |  | Add Layer Zero, Wormhole, and Chainlink as SVs at Weight 4 each  |	Eric Saraniecki| Governance  | Approved |
 | [cip-0066](/cip-0066/cip-0066.md) |  | Mint Canton Coin from Unminted/Unclaimed Pool | Jose Velasco| Tokenomics | Approved |
+| [cip-0067](/cip-0067/cip-0067.md) |  | One-Time Allocation of Historical Unclaimed Rewards to GSF| Eric W Saraniecki | Meta / Tokenomics  | Approved |
 | [cip-0068](/cip-0068/cip-0068.md) |  | Bootstrap network from non-zero round | Julien Tinguely | Standards Track | Approved |
-| [cip-0069](/cip-0069/cip-0069.md) |  | Add Ledger as an SV of Weight 5| Eric Saraniecki | Governance | Draft |
+| [cip-0069](/cip-0069/cip-0069.md) |  | Add Ledger as an SV of Weight 5| Eric Saraniecki | Governance | Approved |
 
