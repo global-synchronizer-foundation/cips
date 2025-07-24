@@ -15,13 +15,14 @@
 
 As the network continues to grow, there is an increasing potential for the free rider problem to emerge with Validators and liveness rewards; Validators can collect liveness rewards significantly in excess of their operating costs without otherwise participating in the network.  
 To mitigate this and encourage participation among validators operating on the network, we suggest to adjust both the cap for Validator liveness rewards and activity rewards.
-New values in the Canton Coin DSO configuration would be set as follows:
+New values in the Canton Coin DSO configuration would be set as follows given the current Super Validator oracle price of 0.05:
 
 I propose that we raise the reward minting caps for Validators and application providers by a factor of 200X, to $570 USD/round for Validators, and 20,000 for application providers. This will have the effect of eliminating minting caps until Canton Coin reaches a conversion rate of $1 USD per Canton Coin. The Super Validators can implement this change via an onchain vote. To make the change persist in both the current configuration, as well as the future steps of the issuance curve, the same value will be set in all "future values" fields, as detailed below.
 
 * Validator Activity Reward Cap = 0.35
 * Validator Liveness Reward Cap = 4.5
 
+The Liveness Reward cap will be adjusted as the Super Validator oracle price changes to track a per round max liveness reward of approximately 90 CC for each validator.
 
 #### Specification
 
@@ -56,6 +57,7 @@ To `4.5`
 
 On DevNet, followed by TestNet and then MainNet.
 
+If the on-chain Super Validator oracle price changes from the current 0.05 value, Super Validators will perform additional votes to adjust the optValidatorFaucetCap.  Additional votes will target an optValidatorFaucetCap value such that the per round liveness reward will track to 90 CC for each validator, assuming 300 or fewer total validators are in operation.
 
 ## Motivation
 
@@ -96,3 +98,4 @@ This CIP is licensed under CC0-1.0: [Creative Commons CC0 1.0 Universal](https:/
 ## Changelog
 
 * **2025-07-22:** Initial draft of the proposal.
+* **2025-07-24:** Edit the CIP to target a liveness reward of 90 CC per round for each validator
