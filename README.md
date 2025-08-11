@@ -65,5 +65,5 @@ Global Synchronizer CIPs
 | [cip-0067](/cip-0067/cip-0067.md) |  | One-Time Allocation of Historical Unclaimed Rewards to GSF| Eric W Saraniecki | Meta / Tokenomics  | Approved |
 | [cip-0068](/cip-0068/cip-0068.md) |  | Bootstrap network from non-zero round | Julien Tinguely | Standards Track | Approved |
 | [cip-0069](/cip-0069/cip-0069.md) |  | Add Ledger as an SV of Weight 5| Eric Saraniecki | Governance | Approved |
-| [cip-0072](/cip-0072/cip-0072.md) |  | Add Fireblocks as an SV of Weight 5 | Eric Saraniecki  | Governance | Draft |
+| [cip-0072](/cip-0072/cip-0072.md) |  | Add Fireblocks as an SV of Weight 5 | Eric Saraniecki  | Governance | Approved |
 
