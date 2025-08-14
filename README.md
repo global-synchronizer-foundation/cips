@@ -66,5 +66,6 @@ Global Synchronizer CIPs
 | [cip-0068](/cip-0068/cip-0068.md) |  | Bootstrap network from non-zero round | Julien Tinguely | Standards Track | Approved |
 | [cip-0069](/cip-0069/cip-0069.md) |  | Add Ledger as an SV of Weight 5| Eric Saraniecki | Governance | Approved |
 | [cip-0070](/cip-0070/cip-0070.md) |  | Adjusting Reward Caps for Validators | Chris Zuehlke | Tokenomics | Withdrawn |
+| [cip-0071](/cip-0071/cip-0071.md) |  | Add Ubyx as an SV of Weight 5| Tony McLaughlin| Governance | Approved |
 | [cip-0072](/cip-0072/cip-0072.md) |  | Add Fireblocks as an SV of Weight 5 | Eric Saraniecki  | Governance | Approved |
 
