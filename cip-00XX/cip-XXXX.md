@@ -37,10 +37,15 @@ Note: other licenses are avilable see recommendations in [cip-0000](../../cips/c
 
 The existing functionality where each SV can grant a
 `ValidatorLicense` to any validator operator by providing a validator
-onboarding secret, is extended such that each SV can
-grant a `ValidatorLicense` with the default weight to arbitrary
-parties (including parties relying on external signing) through the SV
-UI. 
+onboarding secret, is extended such that each SV can grant a
+`ValidatorLicense` with the default weight to arbitrary parties
+(including parties relying on external signing) through the SV UI.
+The full functionality of external parties is supported including
+multi-hosting, refer to the
+[documentation](https://docs.digitalasset.com/build/3.3/explanations/external-signing/external_signing_overview.html)
+for details. Note that for rewards to be minted for those parties, it
+is still required to submit transactions to create and mint activity
+records just like it is currently for the existing validator licenses.
 
 In addition to that, SVs get the ability to change the weight of a
 validator license to a non-negative decimal. The liveness rewards
@@ -78,6 +83,9 @@ The SV UI is extended with three different functionalities:
   `ValidatorLivenessActivityRecord` are extended with an optional
   weight field. If not set, as is the case for all existing licenses,
   it defaults to weight 1.
+- The `ValidatorLicense` contract will be extended with a flag to
+  indicate whether the license is for a validator operator party
+  (which applies to all existing licenses) or a non-operator party.
 
 ## Motivation
 
