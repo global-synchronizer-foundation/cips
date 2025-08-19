@@ -64,3 +64,5 @@ Global Synchronizer CIPs
 | [cip-0066](/cip-0066/cip-0066.md) |  | Mint Canton Coin from Unminted/Unclaimed Pool | Jose Velasco| Tokenomics | Approved |
 | [cip-0067](/cip-0067/cip-0067.md) |  | One-Time Allocation of Historical Unclaimed Rewards to GSF| Eric W Saraniecki | Meta / Tokenomics  | Approved |
 | [cip-0068](/cip-0068/cip-0068.md) |  | Bootstrap network from non-zero round | Julien Tinguely | Standards Track | Approved |
+| [cip-0073](/cip-0073/cip-0073.md) |  | Weighted Validator Liveness Rewards for SV-Determined Parties| Moritz Kiefer | Tokenomics| Draft |
+
