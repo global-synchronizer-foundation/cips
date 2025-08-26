@@ -47,7 +47,7 @@ Global Synchronizer CIPs
 | [cip-0049](/cip-0049/cip-0049.md) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Draft |
 | [cip-0050](/cip-0050/cip-0050.md) |  | Controlled Validator Growth Through Trusted Operators | Wayne Collier  | Process   | Withdrawn |
 | [cip-0051](/cip-0051/cip-0051.md) |  | Streamline onchain governance votes | Itai Segall | Governance  | Approved |
-| [cip-0052](/cip-0052/cip-0052.md) |  | Monstera FZE as a SV  at Weight [3] | Eric Saraniecki | Governance   | Approved |
+| [cip-0052](/cip-0052/cip-0052.md) |  | Add Monstera as an SV of Weight 5 | Eric Saraniecki | Governance   | Approved |
 | [cip-0053](/cip-0053/cip-0053.md) |  |  AngelHack as a Weight 2.5 SV | Eric Saraniecki | Governance   | Approved |
 | [cip-0054](/cip-0054/cip-0054.md) |  | Add Figment as a Weight 1 Super Validator | Eric Saraniecki, Jacob McCrum | Governance   | Approved |
 | [cip-0055](/cip-0055/cip-0055.md) |  | Add Bitwave as a Weight 1 SV | Eric Saraniecki | Governance   | Approved |
@@ -60,9 +60,13 @@ Global Synchronizer CIPs
 | [cip-0062](/cip-0062/cip-0062.md) |  | Synchronizer Migration with Downtime to Splice 0.4.0 / Canton 3.3| Curtis Hrischuk| Standards | Approved |
 | [cip-0063](/cip-0063/cip-0063.md) |  | Add Kaiko as a Super Validator of Weight 6.5 | Ambre Soubiran | Governance  | Approved |
 | [cip-0064](/cip-0064/cip-0064.md) |  | Delegateless Automation | Julien Tinguely | Standards Track  | Approved |
-| [cip-0065](/cip-0065/cip-0065.md) |  | Add Layer Zero, Wormhole, and Chainlink as SVs at Weight 4 each  |	Eric Saraniecki| Governance  | Approved |
+| [cip-0065](/cip-0065/cip-0065.md) |  | Add Layer Zero, Wormhole, and Chainlink as SVs at Weight 3 each  |	Eric Saraniecki| Governance  | Approved |
 | [cip-0066](/cip-0066/cip-0066.md) |  | Mint Canton Coin from Unminted/Unclaimed Pool | Jose Velasco| Tokenomics | Approved |
 | [cip-0067](/cip-0067/cip-0067.md) |  | One-Time Allocation of Historical Unclaimed Rewards to GSF| Eric W Saraniecki | Meta / Tokenomics  | Approved |
 | [cip-0068](/cip-0068/cip-0068.md) |  | Bootstrap network from non-zero round | Julien Tinguely | Standards Track | Approved |
+| [cip-0069](/cip-0069/cip-0069.md) |  | Add Ledger as an SV of Weight 5| Eric Saraniecki | Governance | Approved |
+| [cip-0070](/cip-0070/cip-0070.md) |  | Adjusting Reward Caps for Validators | Chris Zuehlke | Tokenomics | Withdrawn |
+| [cip-0071](/cip-0071/cip-0071.md) |  | Add Ubyx as an SV of Weight 5| Tony McLaughlin| Governance | Approved |
+| [cip-0072](/cip-0072/cip-0072.md) |  | Add Fireblocks as an SV of Weight 5 | Eric Saraniecki  | Governance | Approved |
 | [cip-0073](/cip-0073/cip-0073.md) |  | Weighted Validator Liveness Rewards for SV-Determined Parties| Moritz Kiefer | Tokenomics| Draft |
 
