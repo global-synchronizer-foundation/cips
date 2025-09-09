@@ -68,6 +68,9 @@ Global Synchronizer CIPs
 | [cip-0070](/cip-0070/cip-0070.md) |  | Adjusting Reward Caps for Validators | Chris Zuehlke | Tokenomics | Withdrawn |
 | [cip-0071](/cip-0071/cip-0071.md) |  | Add Ubyx as an SV of Weight 5| Tony McLaughlin| Governance | Approved |
 | [cip-0072](/cip-0072/cip-0072.md) |  | Add Fireblocks as an SV of Weight 5 | Eric Saraniecki  | Governance | Approved |
+| [cip-0073](/cip-0073/cip-0073.md) |  | Weighted Validator Liveness Rewards for SV-Determined Parties| Moritz Kiefer | Tokenomics| Approved |
 | [cip-0074](/cip-0074/cip-0074.md) |  | Add BitGo as an SV of Weight 5| Eric Saraniecki  | Governance | Approved |
+| [cip-0076](/cip-0076/cip-0076.md) |  | Hypernative as a Super Validator with a Weight of 1| Alex Rabke | Governance | Approved |
 | [cip-0077](/cip-0077/cip-0077.md) |  | Add Taurus as an SV of Weight 5 | Victor Busson | Governance | Proposed |
+
 
