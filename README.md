@@ -69,5 +69,5 @@ Global Synchronizer CIPs
 | [cip-0071](/cip-0071/cip-0071.md) |  | Add Ubyx as an SV of Weight 5| Tony McLaughlin| Governance | Approved |
 | [cip-0072](/cip-0072/cip-0072.md) |  | Add Fireblocks as an SV of Weight 5 | Eric Saraniecki  | Governance | Approved |
 | [cip-0074](/cip-0074/cip-0074.md) |  | Add BitGo as an SV of Weight 5| Eric Saraniecki  | Governance | Approved |
-| [cip-0077](/cip-0077/cip-0077.md) |  | Add Taurus as an SV of Weight 5 | Victor Busson | Governance | Approved |
+| [cip-0077](/cip-0077/cip-0077.md) |  | Add Taurus as an SV of Weight 5 | Victor Busson | Governance | Proposed |
 
