@@ -221,7 +221,7 @@ have to manage funding CC fees when implementing multi-step
 workflows that transfer coins. Developers only have to ensure that workflows
 do not rely on very low value coin contracts to be live for a long time,
 which we expect to not be a problem in practice.
-
+ s
 ### Impact on app rewards
 
 Before this CIP, app activity records can be created from CC transfers and featured app activity markers,
@@ -251,7 +251,7 @@ Thus both featured CC transfers and featured app activity markers will generate 
 Going forward featured app activity markers are the preferred way to generate app activity records.
 The ability to feature CC transfers directly is retained for backwards compatibility.
 App providers are free to choose the method by which they feature CC transfers
-provided that they do not feature the same transfer twice.
+**provided that they do not feature the same transfer twice.**
 
 
 ## Backwards compatiblity
