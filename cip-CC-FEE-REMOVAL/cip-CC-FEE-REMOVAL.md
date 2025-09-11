@@ -222,6 +222,37 @@ workflows that transfer coins. Developers only have to ensure that workflows
 do not rely on very low value coin contracts to be live for a long time,
 which we expect to not be a problem in practice.
 
+### Impact on app rewards
+
+Before this CIP, app activity records can be created from CC transfers and featured app activity markers,
+which were introduced in [CIP-0047](../cip-0047/cip-0047.md).
+Featured app activity markers result in featured app activity records with a weight
+set to the `featuredAppActivityMarkerAmount` config parameter converted to CC using the current conversion rate.
+Activity records originating from CC transfers are created as follows:
+
+* When a transfer is provided with a `FeaturedAppRight` contract as an input _and_
+  the `FeaturedAppRight` matches the app provider specified on the transfer,
+  then a featured app activity record is generated with the weight set to the transfer fee plus the
+  `extraFeaturedAppRewardAmount` config parameter converted to CC using the current conversion rate.
+* When no `FeaturedAppRight` contract is provided as an input to the transfer,
+  an unfeatured app activity record is generated with the weight set to the transfer fee.
+  Thus a featured app provider can choose whether to feature a CC transfer or not.
+
+Both config parameters are stored in the `AmuletConfig` and set to $1 USD at the time of writing this CIP.
+
+With the removal of CC fees as proposed in this CIP,
+no unfeatured app activity records will be generated anymore.
+Only CC transfers that are explicitly called with a `FeaturedAppRight` contract matching the specified provider
+will generate featured app activity records.
+Their weight will be set to the `extraFeaturedAppRewardAmount` converted to CC using the current conversion rate,
+as no transfer fees are charged anymore.
+
+Thus both featured CC transfers and featured app activity markers will generate the same featured app activity records.
+Going forward featured app activity markers are the preferred way to generate app activity records.
+The ability to feature CC transfers directly is retained for backwards compatibility.
+App providers are free to choose the method by which they feature CC transfers
+provided that they do not feature the same transfer twice.
+
 
 ## Backwards compatiblity
 
