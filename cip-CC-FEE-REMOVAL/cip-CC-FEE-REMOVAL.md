@@ -251,8 +251,11 @@ Thus both featured CC transfers and featured app activity markers will generate 
 Going forward featured app activity markers are the preferred way to generate app activity records.
 The ability to feature CC transfers directly is retained for backwards compatibility.
 App providers are free to choose the method by which they feature CC transfers
-**provided that they do not feature the same transfer twice.**
+**provided that the same app does not feature the same transfer twice.**
 
+Creating activity records for multiple apps that were directly involved in making a transfer happen is OK.
+For example having a DvP create featured activity records for the trading venue, the token admins,
+and the wallet-provider of the sender and receiver is OK.
 
 ## Backwards compatiblity
 
