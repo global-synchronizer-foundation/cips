@@ -1,6 +1,6 @@
 ## CIP XXXX
 
-<pre>
+```
   CIP: XXXX
   Title: Add LECCA Ventures as a Super Validator (Weight 1)  
   Authors: HJ Ahn
@@ -8,7 +8,7 @@
   Type: Governance  
   Created: 2025-09-19
   License: CC0-1.0
-</pre>
+```
 
 ## Abstract
 
