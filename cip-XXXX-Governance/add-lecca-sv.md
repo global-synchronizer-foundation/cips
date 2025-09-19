@@ -40,3 +40,6 @@ Note: any increase beyond Weight 1 will be proposed via a separate Adjust Weight
 ## Copyright
 This CIP is licensed under CC0-1.0: Creative Commons CC0 1.0 Universal.
 
+
+## Changelog
+2025-09-19 — Initial draft.
