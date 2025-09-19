@@ -28,7 +28,7 @@ Note: any increase beyond Weight 1 will be proposed via a separate Adjust Weight
 ## Deliverables
 
 | Deliverable | Acceptance Criteria | Deadline |
-|-------------|---------------------|----------|---------------|
+|---|---|---|
 | KR Institutional Validator-as-a-Service (VaaS) | Korean-language blueprints/runbooks; IaC templates for validator deployment/hardening; observability dashboards and alert rules (Prometheus/Grafana); onboarding checks/CLI; managed ops for pilots | VaaS toolkit within 6 months post-approval; >= 1 activation by 2025-12-31; >= 2 total by 2026-06-30 |
 
 ## Parameters
