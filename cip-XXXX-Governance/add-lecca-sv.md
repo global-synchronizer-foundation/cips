@@ -13,9 +13,9 @@
 ## Abstract
 
 * Add LECCA Ventures as a Tier-3 (Weight 1) Super Validator.
-- Activate Korea-based banks and securities firms via local onboarding, KR-language operations, regulatory guidance, and validator hosting.
-- Stand up Validator-as-a-Service for Korean institutions within 6 months, and publish Korean-language blueprints/runbooks.
-- Onboarding targets: ≥1 KR institutional validator activated on mainnet by 2025-12-31; ≥2 in total by 2026-06-30; monthly progress notes.
+* Activate Korea-based banks and securities firms via local onboarding, KR-language operations, regulatory guidance, and validator hosting.
+* Stand up Validator-as-a-Service for Korean institutions within 6 months, and publish Korean-language blueprints/runbooks.
+* Onboarding targets: ≥1 KR institutional validator activated on mainnet by 2025-12-31; ≥2 in total by 2026-06-30; monthly progress notes.
 Note: any increase beyond Weight 1 will be proposed via a separate Adjust Weight CIP.
 
 ## Motivation
