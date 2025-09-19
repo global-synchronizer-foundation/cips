@@ -34,7 +34,7 @@ Note: any increase beyond Weight 1 will be proposed via a separate Adjust Weight
 - SV public key (ed25519): to be added before merge
 - Mainnet egress IPs (allow-list): 57.129.73.24
 - Operational region: Seoul, Korea
-- 24x7 contacts: Primary Jerome Kim <jerome@leccaventures.com>; Secondary Yoon Jeong <node@leccaventures.com>
+- 24x7 contacts: Primary (Jerome Kim, jerome@leccaventures.com); Secondary (Yoon Jeong, node@leccaventures.com)
 
 
 ## Copyright
