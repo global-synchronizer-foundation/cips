@@ -26,20 +26,21 @@ Note: any increase beyond Weight 1 will be proposed via a separate Adjust Weight
 
 ## Deliverables
 | Deliverable | Acceptance Criteria | Deadline |
-|---|---|---|
+|-------------|---------------------|----------|---------------|
 | KR Institutional Validator-as-a-Service (VaaS) | Korean-language blueprints/runbooks; IaC templates for validator deployment/hardening; observability dashboards and alert rules (Prometheus/Grafana); onboarding checks/CLI; managed ops for pilots | VaaS toolkit within 6 months post-approval; >= 1 activation by 2025-12-31; >= 2 total by 2026-06-30 |
 
 
 ## Parameters
+
 - SV public key (ed25519): to be added before merge
 - Mainnet egress IPs (allow-list): 57.129.73.24
 - Operational region: Seoul, Korea
 - 24x7 contacts: Primary (Jerome Kim, jerome@leccaventures.com); Secondary (Yoon Jeong, node@leccaventures.com)
 
-
 ## Copyright
+
 This CIP is licensed under CC0-1.0: Creative Commons CC0 1.0 Universal.
 
-
 ## Changelog
+
 2025-09-19 — Initial draft.
