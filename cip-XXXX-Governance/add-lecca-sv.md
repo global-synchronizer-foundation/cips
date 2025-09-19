@@ -1,9 +1,12 @@
 ```
+
 CIP - Add LECCA Ventures as a Super Validator (Tier-3 / Weight 1)  
 Status: Draft  
 Type: Governance  
 Authors: HJ Ahn (hj@leccaventures.com)  
 Created: 2025-09-19
+License: CC0-1.0
+
 ```
 
 
