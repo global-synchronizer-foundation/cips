@@ -6,7 +6,7 @@
   Author: HJ Ahn
   Status: Draft  
   Type: Governance  
-  Created: 2025-09-19
+  Created: 2025-09-22
   License: CC0-1.0
 ```
 
