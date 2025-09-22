@@ -73,4 +73,4 @@ Global Synchronizer CIPs
 | [cip-0076](/cip-0076/cip-0076.md) |  | Hypernative as a Super Validator with a Weight of 1| Alex Rabke | Governance | Approved |
 | [cip-0077](/cip-0077/cip-0077.md) |  | Add Taurus as an SV of Weight 5 | Victor Busson | Governance | Approved |
 | [cip-0078](/cip-0078/cip-0078.md) |  | Canton Coin Fee Removal| Simon Meier | Tokenomics | Approved |
-| [cip-00XX](/cip-00XX/cip-00XX.md) |  | Add Republic as an SV of Weight 6 | Luca Burlando | Governance | Draft |
+| [cip-0080](/cip-0080/cip-0080.md) |  | Add Republic as an SV of Weight 6 | Luca Burlando | Governance | Draft |
