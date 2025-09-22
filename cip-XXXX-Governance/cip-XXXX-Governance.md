@@ -34,7 +34,7 @@
 
 | Deliverable | Acceptance Criteria | Deadline |
 |---|---|---|
-| Korean institutional VaaS & Onboarding | Korean-language VaaS toolkit published (runbooks & blueprints)<br>IaC templates and onboarding checklist/CLI available<br>Observability dashboards and alert rules (JSON)<br>≥1 Korean financial institution onboarded; monthly progress notes | +90 days: 1 institution<br>+180 days: toolkit <br>+240 days: 2 institutions|
+| Korean institutional VaaS & Onboarding | Korean-language VaaS toolkit published (runbooks & blueprints)<br>IaC templates and onboarding checklist/CLI available<br>Observability dashboards and alert rules (JSON)<br>≥1 Korean financial institution onboarded; monthly progress notes | +180 days|
 
 ## Copyright
 
