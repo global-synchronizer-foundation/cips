@@ -73,8 +73,8 @@ Global Synchronizer CIPs
 | [cip-0076](/cip-0076/cip-0076.md) |  | Hypernative as a Super Validator with a Weight of 1| Alex Rabke | Governance | Approved |
 | [cip-0077](/cip-0077/cip-0077.md) |  | Add Taurus as an SV of Weight 5 | Victor Busson | Governance | Approved |
 | [cip-0078](/cip-0078/cip-0078.md) |  | Canton Coin Fee Removal| Simon Meier | Tokenomics | Approved |
-| [cip-0079](/cip-0079/cip-0079.md) |  | SV Readiness — Demonstrate Third-Party Price Feed Integration for CC Listing|Eric Saraniecki | Governance | Draft |
-| [cip-0082](/cip-0082/cip-0082.md) |  | Establish a 5% Development Fund (Foundation-Governed) |Eric Saraniecki | Governance | Draft |
+| [cip-0079](/cip-0079/cip-0079.md) |  | SV Readiness — Demonstrate Third-Party Price Feed Integration for CC Listing|Eric Saraniecki | Governance | Approved |
+| [cip-0082](/cip-0082/cip-0082.md) |  | Establish a 5% Development Fund (Foundation-Governed) |Eric Saraniecki | Governance | Approved |
 
 
 
