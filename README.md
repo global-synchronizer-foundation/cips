@@ -78,4 +78,4 @@ Global Synchronizer CIPs
 | [cip-0080](/cip-0080/cip-0080.md) |  | Add Republic as an SV of Weight 6 | Luca Burlando | Governance | Rejected |
 | [cip-0081](/cip-0081/cip-0081.md) |  | Add YZi Labs as Weight 10 SV |Eric Saraniecki | Governance | Final |
 | [cip-0082](/cip-0082/cip-0082.md) |  | Establish a 5% Development Fund (Foundation-Governed) |Eric Saraniecki | Governance | Final |
-| [cip-0083](/cip-0083/cip-0083.md) |  | DTCC Super Validator Participation |Eric Saraniecki | Governance | Draft |
+| [cip-0083](/cip-0083/cip-0083.md) |  | DTCC Super Validator Participation |Eric Saraniecki | Governance | Approved |
