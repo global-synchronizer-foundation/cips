@@ -32,7 +32,7 @@ Global Synchronizer CIPs
 | [cip-0034](/cip-0034/cip-0034.md) | | Add Proof Group as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
 | [cip-0035](/cip-0035/cip-0035.md) |  | Add Five North as a Tier2 SV (Weight 3) | Eric Saraniecki| Governance   | Final |
 | [cip-0036](/cip-0036/cip-0036.md) | | Add Kiln as a Tier3 SV (Weight 1)| Eric Saraniecki| Governance   | Final |
-| [cip-0037](cip-0037/cip-0037.md) |  | Add Obsidian as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Approved |
+| [cip-0037](cip-0037/cip-0037.md) |  | Add Obsidian as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Final |
 | [cip-0038](/cip-0038/cip-0038.md) |  | Add Hexagate as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
 | [cip-0039](/cip-0039/cip-0039.md) |  | Add Copper Clearloop as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
 | [cip-0040](/cip-0040/cip-0040.md) |  | Add Deribit as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Final |
@@ -42,7 +42,7 @@ Global Synchronizer CIPs
 | [cip-0044](cip-0044/cip-0044.md) |  | Add Elliptic as a Tier4 SV (Weight 0.5)...  | Eric Saraniecki| Governance   | Final |
 | [cip-0045](cip-0045/cip-0045.md) |  | SV Operating Requirements| Eric Saraniecki| Governance   | Final |
 | [cip-0046](/cip-0046/cip-0046.md) |  | Add Coin Metrics as a Weight 1 Super Validator | Eric Saraniecki| Governance   | Final |
-| [cip-0047](cip-0047/cip-0047.md) |  | Featured App Activity Markers| Moritz Kiefer | Tokenomics   | Active |
+| [cip-0047](cip-0047/cip-0047.md) |  | Featured App Activity Markers| Moritz Kiefer | Tokenomics   | Final |
 | [cip-0048](/cip-0048/cip-0048.md) |  | Raising the Rewards Cap for Validators and Application Providers | Wayne Collier | Tokenomics  | Final |
 | [cip-0049](/cip-0049/cip-0049.md) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Draft |
 | [cip-0050](/cip-0050/cip-0050.md) |  | Controlled Validator Growth Through Trusted Operators | Wayne Collier  | Process   | Withdrawn |
