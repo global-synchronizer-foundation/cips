@@ -75,7 +75,7 @@ Global Synchronizer CIPs
 | [cip-0077](/cip-0077/cip-0077.md) |  | Add Taurus as an SV of Weight 5 | Victor Busson | Governance | Final |
 | [cip-0078](/cip-0078/cip-0078.md) |  | Canton Coin Fee Removal| Simon Meier | Tokenomics | Final |
 | [cip-0079](/cip-0079/cip-0079.md) |  | SV Readiness — Demonstrate Third-Party Price Feed Integration for CC Listing|Eric Saraniecki | Governance | Final |
-| [cip-0080](/cip-0080/cip-0080.md) |  | Add Republic as an SV of Weight 6 | Luca Burlando | Governance | Final |
+| [cip-0080](/cip-0080/cip-0080.md) |  | Add Republic as an SV of Weight 6 | Luca Burlando | Governance | Approved |
 | [cip-0081](/cip-0081/cip-0081.md) |  | Add YZi Labs as Weight 10 SV |Eric Saraniecki | Governance | Final |
 | [cip-0082](/cip-0082/cip-0082.md) |  | Establish a 5% Development Fund (Foundation-Governed) |Eric Saraniecki | Governance | Final |
 | [cip-0083](/cip-0083/cip-0083.md) |  | DTCC Super Validator Participation |Eric Saraniecki | Governance | Draft |
