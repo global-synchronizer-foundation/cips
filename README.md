@@ -4,11 +4,11 @@ Global Synchronizer CIPs
 
 | Number| Layer | Title| Author| Type| Status|
 |--------------------------------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-------------------|------------|
-| [cip-0000](cip-0000/cip-0000.md)   |  | CIP Process   | Wayne Collier | Process | Approved |
+| [cip-0000](cip-0000/cip-0000.md)   |  | CIP Process   | Wayne Collier | Process | Active |
 | [cip-0001](/cip-0001/cip-0001.md) |  | Replace the SV tranche time delays with a weighted reward  | Eric Saraniecki| Tokenomics   | Final |
 | [cip-0002](/cip-0002/cip-0002.md) |  | Minor adjustments to the Tokenomics variables to fine tune BME tokenomics | Eric Saraniecki| Tokenomics   | Replaced |
 | [cip-0003](/cip-0003/cip-0003.md) |  | Distribute Canton Coin rewards to any Validator on the Network which is live and can claim its rewards quickly...| Eric Saraniecki| Tokenomics   | Final |
-| [cip-0006](/cip-0006/cip-0006.md) |  | Define the process of distributing and approving  | Eric Saraniecki| Process | Final |
+| [cip-0006](/cip-0006/cip-0006.md) |  | Define the process of distributing and approving  | Eric Saraniecki| Process | Active |
 | [cip-0007](cip-0007/cip-0007.md) |  | SVs can earn extra SV reward weight when bringing Validators or apps to the Canton Network | Eric Saraniecki| Tokenomics   | Replaced |
 | [cip-0008](cip-0008/cip-0008.md) |  | Update and Refinement to CIP-0002  | Wayne Collier, Moritz Kiefer | Tokenomics   | Replaced |
 | [cip-0009](cip-0009/cip-0009.md) |  | Add Broadridge as a T1 (weight 10) Super Validator| Eric Saraniecki| Governance   | Final |
@@ -23,10 +23,10 @@ Global Synchronizer CIPs
 | [cip-0018](cip-0018/cip-0018.md) |  | Add Tradeweb as a T1 (weight 10) Super Validator | Eric Saraniecki| Governance   | Final |
 | [cip-0019](cip-0019/cip-0019.md) |  | Add 7RIDGE as a T1 (weight 10) Super Validator. 7RIDGE is used as a placeholder to represent the NewCo until the entity name is finalized.| Chris Zuehlke| Governance   | Final |
 | [cip-0020](cip-0020/cip-0020.md) |  | Update and Refinement to CIP-0002  | Eric Saraniecki| Tokenomics   | Final |
-| [cip-0021](cip-0021/cip-0021.md) |  | Introduce Featured Application and Validator Committee (FAV-C)  | Chris Zuehlke| Governance   | Final |
+| [cip-0021](cip-0021/cip-0021.md) |  | Introduce Featured Application and Validator Committee (FAV-C)  | Chris Zuehlke| Governance   | Active |
 | cip-0023 |  | Proposal to form a Super Validator Operations committee (the Committee)...| Eric Saraniecki| Governance   | Withdrawn |
 | [cip-0024](cip-0024/cip-0024.md) |  | SVs and Validators can earn SV reward weight when bringing Validators or apps to the Canton Network.  | Eric Saraniecki| Tokenomics   | Final |
-| [cip-0025](cip-0025/cip-0025.md) |  | CIP-0006 and CIP-0021 called for the formation of Validator and Featured App committees   | Eric Saraniecki| Governance   | Final |
+| [cip-0025](cip-0025/cip-0025.md) |  | CIP-0006 and CIP-0021 called for the formation of Validator and Featured App committees   | Eric Saraniecki| Governance   | Obsolete |
 | [cip-0032](/cip-0032/cip-0032.md) | | Add Lukka as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
 | [cip-0033](/cip-0033/cip-0033.md) | | Add Strange Pixels as a Tier4 SV (Weight 0.5) | Eric Saraniecki| Governance   | Rejected |
 | [cip-0034](/cip-0034/cip-0034.md) | | Add Proof Group as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
@@ -37,14 +37,14 @@ Global Synchronizer CIPs
 | [cip-0039](/cip-0039/cip-0039.md) |  | Add Copper Clearloop as a Tier3 SV (Weight 1) | Eric Saraniecki| Governance   | Final |
 | [cip-0040](/cip-0040/cip-0040.md) |  | Add Deribit as a Tier3 SV (Weight 1)   | Eric Saraniecki| Governance   | Final |
 | [cip-0041](cip-0041/cip-0041.md) |  | Add Circle as a Weight 10 Super Validator | Eric Saraniecki| Governance   | Final |
-| [cip-0042](cip-0042/cip-0042.md) |  | Stable Price per Canton Coin Transfer via Synchronizer Fees| Wayne Collier, Moritz Kiefer | Governance   | Final |
+| [cip-0042](cip-0042/cip-0042.md) |  | Stable Price per Canton Coin Transfer via Synchronizer Fees| Wayne Collier, Moritz Kiefer | Governance   | Active |
 | [cip-0043](cip-0043/cip-0043.md) |  | Add TRM as a SV  |  Eric Saraniecki | Governance   | Final |
 | [cip-0044](cip-0044/cip-0044.md) |  | Add Elliptic as a Tier4 SV (Weight 0.5)...  | Eric Saraniecki| Governance   | Final |
-| [cip-0045](cip-0045/cip-0045.md) |  | SV Operating Requirements| Eric Saraniecki| Governance   | Final |
+| [cip-0045](cip-0045/cip-0045.md) |  | SV Operating Requirements| Eric Saraniecki| Governance   | Active |
 | [cip-0046](/cip-0046/cip-0046.md) |  | Add Coin Metrics as a Weight 1 Super Validator | Eric Saraniecki| Governance   | Final |
 | [cip-0047](cip-0047/cip-0047.md) |  | Featured App Activity Markers| Moritz Kiefer | Tokenomics   | Final |
 | [cip-0048](/cip-0048/cip-0048.md) |  | Raising the Rewards Cap for Validators and Application Providers | Wayne Collier | Tokenomics  | Final |
-| [cip-0049](/cip-0049/cip-0049.md) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Draft |
+| [cip-0049](/cip-0049/cip-0049.md) |  | Incentivizing Cold Backups for Super Validators to Enhance Network Resilience | Vinh Nguyễn | Governance   | Proposed |
 | [cip-0050](/cip-0050/cip-0050.md) |  | Controlled Validator Growth Through Trusted Operators | Wayne Collier  | Process   | Withdrawn |
 | [cip-0051](/cip-0051/cip-0051.md) |  | Streamline onchain governance votes | Itai Segall | Governance  | Final |
 | [cip-0052](/cip-0052/cip-0052.md) |  | Add Monstera as an SV of Weight 5 | Eric Saraniecki | Governance   | Final |
@@ -67,15 +67,15 @@ Global Synchronizer CIPs
 | [cip-0069](/cip-0069/cip-0069.md) |  | Add Ledger as an SV of Weight 5| Eric Saraniecki | Governance | Final |
 | [cip-0070](/cip-0070/cip-0070.md) |  | Adjusting Reward Caps for Validators | Chris Zuehlke | Tokenomics | Withdrawn |
 | [cip-0071](/cip-0071/cip-0071.md) |  | Add Ubyx as an SV of Weight 5| Tony McLaughlin| Governance | Final |
-| [cip-0072](cip-0072/cip-0072.md) |  | Add Fireblocks as an SV of Weight 5 | Eric Saraniecki  | Governance | Final |
-| [cip-0073](/cip-0073/cip-0073.md) |  | Weighted Validator Liveness Rewards for SV-Determined Parties| Moritz Kiefer | Tokenomics| Final |
-| [cip-0074](/cip-0074/cip-0074.md) |  | Add BitGo as an SV of Weight 5| Eric Saraniecki  | Governance | Final |
-| [cip-0075](/cip-0075/cip-0075.md) |  | Add Zodia as a SV with max weight 5| Eric Saraniecki  | Governance | Final |
+| [cip-0072](cip-0072/cip-0072.md) |  | Add Fireblocks as an SV of Weight 5 | Eric Saraniecki  | Governance | Approved |
+| [cip-0073](/cip-0073/cip-0073.md) |  | Weighted Validator Liveness Rewards for SV-Determined Parties| Moritz Kiefer | Tokenomics| Approved |
+| [cip-0074](/cip-0074/cip-0074.md) |  | Add BitGo as an SV of Weight 5| Eric Saraniecki  | Governance | Approved |
+| [cip-0075](/cip-0075/cip-0075.md) |  | Add Zodia as a SV with max weight 5| Eric Saraniecki  | Governance | Approved |
 | [cip-0076](/cip-0076/cip-0076.md) |  | Hypernative as a Super Validator with a Weight of 1| Alex Rabke | Governance | Final |
-| [cip-0077](/cip-0077/cip-0077.md) |  | Add Taurus as an SV of Weight 5 | Victor Busson | Governance | Final |
+| [cip-0077](/cip-0077/cip-0077.md) |  | Add Taurus as an SV of Weight 5 | Victor Busson | Governance | Approved |
 | [cip-0078](/cip-0078/cip-0078.md) |  | Canton Coin Fee Removal| Simon Meier | Tokenomics | Final |
-| [cip-0079](/cip-0079/cip-0079.md) |  | SV Readiness — Demonstrate Third-Party Price Feed Integration for CC Listing|Eric Saraniecki | Governance | Final |
+| [cip-0079](/cip-0079/cip-0079.md) |  | SV Readiness — Demonstrate Third-Party Price Feed Integration for CC Listing|Eric Saraniecki | Governance | Approved |
 | [cip-0080](/cip-0080/cip-0080.md) |  | Add Republic as an SV of Weight 6 | Luca Burlando | Governance | Approved |
-| [cip-0081](/cip-0081/cip-0081.md) |  | Add YZi Labs as Weight 10 SV |Eric Saraniecki | Governance | Final |
-| [cip-0082](/cip-0082/cip-0082.md) |  | Establish a 5% Development Fund (Foundation-Governed) |Eric Saraniecki | Governance | Final |
+| [cip-0081](/cip-0081/cip-0081.md) |  | Add YZi Labs as Weight 10 SV |Eric Saraniecki | Governance | Approved |
+| [cip-0082](/cip-0082/cip-0082.md) |  | Establish a 5% Development Fund (Foundation-Governed) |Eric Saraniecki | Governance | Approved |
 | [cip-0083](/cip-0083/cip-0083.md) |  | DTCC Super Validator Participation |Eric Saraniecki | Governance | Draft |
