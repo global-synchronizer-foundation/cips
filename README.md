@@ -78,7 +78,7 @@ Global Synchronizer CIPs
 | [cip-0080](/cip-0080/cip-0080.md) |  | Add Republic as an SV of Weight 6 | Luca Burlando | Governance | Approved |
 | [cip-0081](/cip-0081/cip-0081.md) |  | Add YZi Labs as Weight 10 SV |Eric Saraniecki | Governance | Approved |
 | [cip-0082](/cip-0082/cip-0082.md) |  | Establish a 5% Development Fund (Foundation-Governed) |Eric Saraniecki | Governance | Approved |
-| [cip-0083](/cip-0083/cip-0083.md) |  | DTCC Super Validator Participation |Eric Saraniecki | Governance | Draft |
+| [cip-0083](/cip-0083/cip-0083.md) |  | DTCC Super Validator Participation |Eric Saraniecki | Governance | Approved |
 | [cip-0084](/cip-0084/cip-0084.md) |  | Tokenomics Committee to Recommend $/MB Price Tuning| Eric Saraniecki | Tokenomics | Approved |
 | [cip-0085](/cip-0085/cip-0085.md) |  | Add Talos as Weight 6.5 SV |Anton Katz| Governance | Approved |
 
