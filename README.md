@@ -80,5 +80,5 @@ Global Synchronizer CIPs
 | [cip-0082](/cip-0082/cip-0082.md) |  | Establish a 5% Development Fund (Foundation-Governed) |Eric Saraniecki | Governance | Approved |
 | [cip-0083](/cip-0083/cip-0083.md) |  | DTCC Super Validator Participation |Eric Saraniecki | Governance | Approved |
 | [cip-0085](/cip-0085/cip-0085.md) |  | Add Talos as Weight 6.5 SV |Anton Katz| Governance | Approved |
-| [cip-0086](/cip-0086/cip-0086.md) |  |ERC-20 Middleware and Distributed Indexer for Canton Network |Eric Saraniecki | Approved | Draft |
+| [cip-0086](/cip-0086/cip-0086.md) |  |ERC-20 Middleware and Distributed Indexer for Canton Network |Eric Saraniecki | Approved | Approved |
 
