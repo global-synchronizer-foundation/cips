@@ -1,72 +1,45 @@
-Please make a copy of this folder for any new CIP. Any artifacts for that CIP should go inside that folder. 
+## CIP XXXX
 
-
-This template applies only to CIPs that assign Super Validator weights in return for specified deliverables. Other CIPs should use the standard template. 
-
-
-More information can be found in [CIP-0000](../../cips/cip-0000/cip-0000.md).
-
-## Title
-
-<pre>
-  CIP: <CIP number, or "?" before being assigned>
-* Layer: <TBD> [TBD see Layer definition cip-XXXX](../../cips/blob/main/cip-XXXX).
-  Title: <CIP title; maximum 44 characters>
-  Author: <list of authors' real names>
-* Discussions-To: <email address>
-* Comments-Summary: <summary tone>
-* Comments-URI: <links to wiki page for comments>
-  Status: <Draft | Active | Proposed | Deferred | Rejected |
-           Withdrawn | Final | Replaced | Obsolete>
-  Type: Governance 
-  Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
-  License: <abbreviation for approved license(s)>
-* License-Code: <abbreviation for code under different approved license(s)>
-* Post-History: <dates of postings to [https://lists.sync.global/g/cip-discuss] mailing list, or link to thread in mailing list archive>
-* Requires: <CIP number(s)>
-* Replaces: <CIP number>
-* Superseded-By: <CIP number>
-</pre>
+```
+  CIP: XXXX
+  Title: Add LECCA Ventures as an SV of Weight 1  
+  Author: HJ Ahn
+  Status: Draft  
+  Type: Governance  
+  Created: 2025-09-22
+  License: CC0-1.0
+```
 
 ## Abstract
 
-Add [name] as SV of Weight [#]
+* Add LECCA Ventures, a crypto-native VC in Korea, as an SV of Weight 1
+* Facilitate participation of Korean banks and securities firms through localized onboarding, Korean-language operations, regulatory guidance, and validator hosting.
+* Establish a Validator-as-a-Service offering for Korean institutions within 6 months, and publish supporting blueprints and runbooks in Korean.
+* Achieve onboarding of at least one Korean financial institution to mainnet by 180 days from CIP approval.
+* Note, any increase beyond Weight 1 will be proposed via a separate Adjust Weight CIP.
 
-## About Applicant
+## Motivation
 
-Who is this party and why do we care?
+* LECCA Ventures has already engaged one-on-one with key decision-makers at 10+ Korean banks and securities firms; a detailed institution list can be shared separately with sponsors and endorsers.
+* Korea is one of the most active digital-asset markets, with regulatory momentum around stablecoins and tokenized securities (STO) creating a near-term window for adoption.
+* Korean institutions are actively seeking production-grade implementation blueprints and runbooks, a clear commercial model with defined roles, and proven use cases beyond repos and bonds (e.g., cross-border settlement, supply-chain financing, corporate FX, and stablecoin settlement).
+* LECCA, a Seoul-based operator, offering local language and time-zone coverage materially reduces time-to-activation for Korean institutions.
 
-## Deliverables for full SV Reward:
-| Deliverable | Acceptance Criteria | Deadline | Weight Earned |
-|-------------|---------------------|----------|---------------|
-|     X       |         X           |   X days |     X.X       |
-|     X       |         X           |   X days |     X.X       |
+## Rationale
 
+* LECCA Ventures is a Seoul-based, crypto-native venture firm with an in-house validator operations arm.
+* Starting at Weight 1 is appropriate for an entry SV focused on Korean institutional onboarding and operations, with any increase to be proposed through an Adjust Weight CIP based on demonstrated deliverables and successful onboardings.
 
+## Deliverables
 
-## SV Reward Mechanics: 
-* An `extraBeneficiary` PartyID associated with the ‘escrowed’ Super Validator will be setup by the GSF with an SV Weight at the maximum earnable weight in the CIP that granted rights to that Super Validator.
-    * The Applicant is responsible for all costs associated with the operation of the escrow SV
-    * The escrow SV will NOT mint rewards on a block by block basis
-    * All escrow SV rewards will go to the Unclaimed Rewards pool
-* ⅔ of the Super Validator Operators will update their configurations to allow GSF to host the full weight to be earned by the given Super Validator
-* Applicant is required to present proof of successful completed milestones to the Tokenomics Working Group
-    * Applicant is required to present a calculation for number of Canton Coin it should earn for meeting the requirements of the milestone
-* If the Tokenomics Working Group agrees the milestone has been met and agrees with the calculation, an announcement will be sent via the Tokenomics-Announce mailing List
-    * The GSF will update the `extraBeneficiary` to an active PartyID controlled by that Super Validator. 
-    * ⅔ of Super Validator Operators will then assign a portion of the Unclaimed Rewards to be minted by the Applicant’s Validator, based on the calculation approved by the Tokenomics working group.
-   
-* If any milestones and associated rewards are not achieved by the deadline
-    * Applicant will be notified they have not met a deliverable by the GSF 
-    * Remaining SV Weight assigned to the `extraBeneficiary` SV will be removed from the GSF node configuration, and the total SV weight of the GSF SV node will be reduced by the same amount by a vote of the Super Validators.
-    * The Tokenomics Working Group will make a recommendation to the SVs on what to do with the Unclaimed Rewards 
-* Applicant is subject to CIP-0045 : SV Operating Requirements
-    * If, at any time, the Applicant has been rewarded SV Weight > 2.5, they are required to operate their SV within 6 months of crossing that Weight. This SV node will join the network with an SV weight of zero (0) and may add weights as the SV completes the milestones listed in this CIP.
+| Deliverable | Acceptance Criteria | Deadline |
+|---|---|---|
+| Korean institutional VaaS & Onboarding | Korean-language VaaS toolkit published (runbooks & blueprints)<br>IaC templates and onboarding checklist/CLI available<br>Observability dashboards and alert rules (JSON)<br>≥1 Korean financial institution onboarded; monthly progress notes | +180 days|
 
 ## Copyright
 
-* This CIP is licensed under CC0-1.0: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+This CIP is licensed under CC0-1.0: Creative Commons CC0 1.0 Universal.
 
 ## Changelog
 
-* **DATE:** Initial draft of the proposal.
+2025-09-22 — Initial draft.
