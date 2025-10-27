@@ -82,4 +82,5 @@ Global Synchronizer CIPs
 | [cip-0084](/cip-0084/cip-0084.md) |  | Tokenomics Committee to Recommend $/MB Price Tuning| Eric Saraniecki | Tokenomics | Approved |
 | [cip-0085](/cip-0085/cip-0085.md) |  | Add Talos as Weight 6.5 SV |Anton Katz| Governance | Approved |
 | [cip-0086](/cip-0086/cip-0086.md) |  |ERC-20 Middleware and Distributed Indexer for Canton Network |Eric Saraniecki | Tokenomics | Approved |
+| [cip-0087](/cip-0087/cip-0087.md) |  | Add Nuva as SV of Weight 3 | Eric Saraniecki | Governance | Draft |
 
