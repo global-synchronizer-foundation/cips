@@ -82,5 +82,6 @@ Global Synchronizer CIPs
 | [cip-0084](/cip-0084/cip-0084.md) |  | Tokenomics Committee to Recommend $/MB Price Tuning| Eric Saraniecki | Tokenomics | Approved |
 | [cip-0085](/cip-0085/cip-0085.md) |  | Add Talos as Weight 6.5 SV |Anton Katz| Governance | Approved |
 | [cip-0086](/cip-0086/cip-0086.md) |  |ERC-20 Middleware and Distributed Indexer for Canton Network |Eric Saraniecki | Tokenomics | Approved |
-| [cip-0090](/cip-0090/cip-0090.md) |  |Synchronizer Migration with Downtime to Splice 0.5.0 / Canton 3.4|Curtis Hrischuk| Tokenomics | Approved |
+| [cip-0089](/cip-0089/cip-0089.md) |  |Synchronizer Migration with Downtime to Splice 0.5.0 / Canton 3.4|Curtis Hrischuk| Tokenomics | Approved |
+
 
