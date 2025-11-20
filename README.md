@@ -82,5 +82,8 @@ Global Synchronizer CIPs
 | [cip-0084](/cip-0084/cip-0084.md) |  | Tokenomics Committee to Recommend $/MB Price Tuning| Eric Saraniecki | Tokenomics | Approved |
 | [cip-0085](/cip-0085/cip-0085.md) |  | Add Talos as Weight 6.5 SV |Anton Katz| Governance | Approved |
 | [cip-0086](/cip-0086/cip-0086.md) |  |ERC-20 Middleware and Distributed Indexer for Canton Network |Eric Saraniecki | Tokenomics | Approved |
+| [cip-0087](/cip-0087/cip-0087.md) |  | Add Hex Trust as a Super Validator (Weight 3) | Giorgia Pellizzari, Alessio Quaglini | Governance | Approved |
+| [cip-0089](/cip-0089/cip-0089.md) |  |Synchronizer Migration with Downtime to Splice 0.5.0 / Canton 3.4|Curtis Hrischuk| Tokenomics | Approved |
 | [cip-0090](/cip-0090/cip-0090.md) |  |Onboard USDT0 to Canton — Outcome-Linked SV Weight (Max 10) |Eric Saraniecki | Governance | Draft |
-
+| [cip-0091](/cip-0091/cip-0091.md) |  |Add Zenith as an SV of Weight 10|Norbert Vadas, Teemu Paivinen, Heslin Kim, Henri Kamarainen| Governance | Approved |
+| [cip-0092](/cip-0092/cip-0092.md) |  |Controlled Transition to Dynamic Market Feeds Post-Listing of Canton Coin (CC)|Eric Saraniecki| Governance | Approved |
