@@ -87,3 +87,4 @@ Global Synchronizer CIPs
 | [cip-0090](/cip-0090/cip-0090.md) |  |Onboard USDT0 to Canton — Outcome-Linked SV Weight (Max 10) |Eric Saraniecki | Governance | Approved |
 | [cip-0091](/cip-0091/cip-0091.md) |  |Add Zenith as an SV of Weight 10|Norbert Vadas, Teemu Paivinen, Heslin Kim, Henri Kamarainen| Governance | Approved |
 | [cip-0092](/cip-0092/cip-0092.md) |  |Controlled Transition to Dynamic Market Feeds Post-Listing of Canton Coin (CC)|Eric Saraniecki| Governance | Approved |
+| [cip-0093](/cip-0093/cip-0093.md) |  | Add Bosphorus SV (BSV) as a Super Validator (Max Weight 6) | Eric Saraniecki | Governance | Approved |
