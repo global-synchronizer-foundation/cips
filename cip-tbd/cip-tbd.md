@@ -362,14 +362,14 @@ For such multi-step operations, Wallet Providers **MUST** return a `userUrl` tha
 
 | **Method** | **Output** | **Notes** |
 | --- | --- | --- |
-| connect | {<br><br>..ConnectResult, userUrl: string<br><br>} | If no prior connection is established, a \`userUrl\` is returned that points the user to a login facility. After a successful login, an \`onConnected\` event **\*\*MUST\*\*** be submitted. |
+| connect | {<br><br>..ConnectResult, userUrl: string<br><br>} | If no prior connection is established, a \`userUrl\` is returned that points the user to a login facility. After a successful login, an \`connected\` event **\*\*MUST\*\*** be submitted. |
 | prepareExecute | { userUrl: string } | A \`userUrl\` is returned, pointing the user to a review facility to approve or decline the signing of the submitted commands. A \`txChanged\` **\*\*MUST\*\*** be emitted no later than completing the \`prepare\` phase. |
 
 Additional event:
 
 | **Event** | **Payload** | **Notes** |
 | --- | --- | --- |
-| onConnected | StatusEvent | Contains the same payload as \`statusChanged\` but is only emitted as part of the login flow. |
+| connected | StatusEvent | Contains the same payload as \`statusChanged\` but is only emitted as part of the login flow. |
 
 This variant ensures that operations that normally require synchronous blocking can proceed in a non-blocking, multi-step manner using userUrl handoffs and corresponding events.
 
