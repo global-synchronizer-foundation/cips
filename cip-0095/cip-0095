@@ -32,10 +32,10 @@ Mesh's crypto payment infrastructure connects 400+ million users across 300+ wal
 
 | # | Milestone | Scope (what must be true) | Target window | Weight (base → max) | Acceptance / Evidence (TWG-verifiable) |
 |---|----------|---------------------------|---------------|---------------------|----------------------------------------|
-| D1 | Mesh Payment Network Production Canton Integration | Mesh able to mobilize Canton Token Standard assets to/from Canton MainNet in production environment with a minimum of $10M of customer activity. Mesh agrees to Press Release upon, or before, Canton Integration announcing Canton Network as Mesh preferred “Privacy Chain”. | ≤ Day 180 from CIP approval | +2.0 | Txn ID’s verifying a minimum of $10M of customer activity across Canton Mainnet |
-| D1a | Production Integration — Time Acceleration | Earlier production readiness. Linear reward between Day 60 and Day 180. | Day 60 → Day 180 | 0.0 → +2.0 | Formula: `Accel_bridged = max(0, min(1, (180 − d) / 120)) × 2.0`, where `d` = days from approval to D1 acceptance (timestamped by TWG). |
-| D2 | Adoption Bonus - Notional Based Volume | Mesh facilitates notional volume transacted on Canton counted once per obligation; exclude wash/loopbacks; methodology disclosed. | Rolling 12-month window starting D1 acceptance | 0.0 → +3.0 | +0.5 per $500M verified Mesh enabled notional (cap +3.0 ⇒ $3B). Evidence: monthly attestation (data sources) + sampled TXIDs. |
-| D3 | Adoption Bonus - Notional Based Volume | Mesh facilitates notional volume transacted on Canton counted once per obligation; exclude wash/loopbacks; methodology disclosed. | Rolling 12-month window starting D2 acceptance | 0.0 → +3.0 | +0.5 per $1B verified Mesh enabled notional (cap +3.0 ⇒ $6B). Evidence: monthly attestation (data sources) + sampled TXIDs. |
+| D1 | Mesh Payment Network Production Canton Integration | Mesh able to mobilize Canton Token Standard assets to/from Canton MainNet in production environment, and has processed a minimum of $10M of total customer transaction volume.  Mesh has published a press release announcing the integration and designating Canton Network as Mesh's preferred “Privacy Chain”. | ≤ Day 180 from CIP approval | +2.0 | Txn ID’s verifying a minimum of $10M of customer activity across Canton Mainnet |
+| D1a | Production Integration — Time Acceleration | Earlier production readiness. Linear reward between Day 60 and Day 180. | Day 60 → Day 180 | 0.0 → +2.0 | Formula: `Accel_bridged = max(0, min(1, (180 − d) / 120)) × 2.0`, where `d` = days from approval to D1 acceptance (timestamped by Tokenomics Working Group). |
+| D2 | Adoption Bonus - Notional Based Volume | Mesh facilitates notional volume transacted on Canton counted once per obligation; exclude wash/loopbacks; methodology disclosed. | 12 months starting on the effective date of D1 completion | 0.0 → +3.0 | +0.5 per $500M verified Mesh enabled notional (cap +3.0 ⇒ $3B). Evidence: monthly attestation (data sources) + sampled TXIDs. |
+| D3 | Adoption Bonus - Notional Based Volume | Mesh facilitates notional volume transacted on Canton counted once per obligation; exclude wash/loopbacks; methodology disclosed. | 12 months starting one year after the effective date of D1 completion | 0.0 → +3.0 | +0.5 per $1B verified Mesh enabled notional (cap +3.0 ⇒ $6B). Evidence: monthly attestation (data sources) + sampled TXIDs. |
 
 ### SV Reward Mechanics
 
@@ -55,7 +55,7 @@ Mesh's crypto payment infrastructure connects 400+ million users across 300+ wal
   - Remaining SV Weight assigned to the `extraBeneficiary` SV will be removed from the GSF node configuration, and the total SV weight of the GSF SV node will be reduced by the same amount by a vote of the Super Validators.
   - The Tokenomics Working Group will make a recommendation to the SVs on what to do with the Unclaimed Rewards.
 - Applicant is subject to **CIP-0045 : SV Operating Requirements**.
-  - If, at any time, the Applicant has been rewarded SV Weight > 2.5, they are required to operate their SV within 6 months of crossing that Weight. This SV node will join the network with an SV weight of zero (0) and may add weights as the SV completes the milestones listed in this CIP.
+  - If, at any time, the Applicant has been rewarded SV Weight > 2.5, they are required to operate their SV within 6 months of crossing that Weight, provided the network has capacity to onboard this SV. This SV node will join the network with an SV weight of zero (0) and may add weights as the SV completes the milestones listed in this CIP.
 
 ## Rationale
 
