@@ -90,3 +90,4 @@ Global Synchronizer CIPs
 | [cip-0093](/cip-0093/cip-0093.md) |  | Add Bosphorus SV (BSV) as a Super Validator (Max Weight 6) | Eric Saraniecki | Governance | Approved |
 | [cip-0094](/cip-0094/cip-0094.md) |  | Add Blockdaemon as a Super Validator (weight 5.0) | Brad Turner, Demo Skalkotos, Jesse Farese | Governance | Approved |
 | [cip-0096](/cip-0096/cip-0096.md) |  | Removing Liveness Rewards from Validator Rewards Pool | Chris Zuehlke, Andrew Bryan | Tokenomics | Approved |
+| [cip-0097](/cip-0097/cip-0097.md) |  | Nasdaq Super Validator Participation | Eric Saraniecki | Governance | Approved |
