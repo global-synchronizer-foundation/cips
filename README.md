@@ -55,7 +55,7 @@ Global Synchronizer CIPs
 | [cip-0057](/cip-0057/cip-0057.md) |  | Add Quantstamp as a Weight 1 Super Validator | Eric Saraniecki | Governance  | Final |
 | [cip-0058](/cip-0058/cip-0058.md) |  | Add IntellectEU as Weight 1 SV |Christopher Kelly | Governance  | Final |
 | [cip-0059](/cip-0059/cip-0059.md) |  | Add Woodside AI as an SV of Weight 10 | Eric Saraniecki | Governance  | Final |
-| [cip-0060](/cip-0060/cip-0060.md) |  | Add Zero Hash as SV of Weight 7.5 | Eric Saraniecki | Governance  | Final |
+| [cip-0060](/cip-0060/cip-0060.md) |  | Add Zero Hash as SV of Weight 7.5 | Eric Saraniecki | Governance  | Approveds |
 | [cip-0061](/cip-0061/cip-0061.md) |  | Add Chainlink as a Super Validator of Weight 7.5 | Thodoris Karakostas | Governance  | Final |
 | [cip-0062](/cip-0062/cip-0062.md) |  | Synchronizer Migration with Downtime to Splice 0.4.0 / Canton 3.3| Curtis Hrischuk| Standards | Final |
 | [cip-0063](/cip-0063/cip-0063.md) |  | Add Kaiko as a Super Validator of Weight 6.5 | Ambre Soubiran | Governance  | Final |
@@ -92,3 +92,4 @@ Global Synchronizer CIPs
 | [cip-0096](/cip-0096/cip-0096.md) |  | Removing Liveness Rewards from Validator Rewards Pool | Chris Zuehlke, Andrew Bryan | Tokenomics | Approved |
 | [cip-0097](/cip-0097/cip-0097.md) |  | Nasdaq Super Validator Participation | Eric Saraniecki | Governance | Approved |
 | [cip-0098](/cip-0098/cip-0098.md) |  | Cap Per-Transaction Application Rewards at $1.50 | Eric Saraniecki | Tokenomics | Approved |
+| [cip-0099](/cip-0099/cip-0099.md) |  | Zero Hash Modifications to Adoption Incentive  | Eric Saraniecki | Governance | Approved |
