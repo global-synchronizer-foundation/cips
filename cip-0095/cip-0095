@@ -35,7 +35,7 @@ Mesh's crypto payment infrastructure connects 400+ million users across 300+ wal
 | D1 | Mesh Payment Network Production Canton Integration | Mesh able to mobilize Canton Token Standard assets to/from Canton MainNet in production environment, and has processed a minimum of $10M of total customer transaction volume.  Mesh has published a press release announcing the integration and designating Canton Network as Mesh's preferred “Privacy Chain”. | ≤ Day 180 from CIP approval | +2.0 | Txn ID’s verifying a minimum of $10M of customer activity across Canton Mainnet |
 | D1a | Production Integration — Time Acceleration | Earlier production readiness. Linear reward between Day 60 and Day 180. | Day 60 → Day 180 | 0.0 → +2.0 | Formula: `Accel_bridged = max(0, min(1, (180 − d) / 120)) × 2.0`, where `d` = days from approval to D1 acceptance (timestamped by Tokenomics Working Group). |
 | D2 | Adoption Bonus - Notional Based Volume | Mesh facilitates notional volume transacted on Canton counted once per obligation; exclude wash/loopbacks; methodology disclosed. | 12 months starting on the effective date of D1 completion | 0.0 → +3.0 | +0.5 per $500M verified Mesh enabled notional (cap +3.0 ⇒ $3B). Evidence: monthly attestation (data sources) + sampled TXIDs. |
-| D3 | Adoption Bonus - Notional Based Volume | Mesh facilitates notional volume transacted on Canton counted once per obligation; exclude wash/loopbacks; methodology disclosed. | 12 months starting one year after the effective date of D1 completion | 0.0 → +3.0 | +0.5 per $1B verified Mesh enabled notional (cap +3.0 ⇒ $6B). Evidence: monthly attestation (data sources) + sampled TXIDs. |
+| D3 | Adoption Bonus - Notional Based Volume | Mesh facilitates notional volume transacted on Canton counted once per obligation; exclude wash/loopbacks; methodology disclosed. | 12 months from completion of D2 or 24 months from completion of D1 | 0.0 → +3.0 | +0.5 per $1B verified Mesh enabled notional (cap +3.0 ⇒ $6B). Evidence: monthly attestation (data sources) + sampled TXIDs. |
 
 ### SV Reward Mechanics
 
@@ -66,3 +66,4 @@ Mesh's crypto payment infrastructure connects 400+ million users across 300+ wal
 ## Copyright
 
 - This CIP is licensed under **CC0-1.0: Creative Commons CC0 1.0 Universal**.
+
