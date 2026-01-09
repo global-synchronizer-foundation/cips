@@ -6,8 +6,9 @@ Layer: Governance / Ecosystem
 Title: Onboard Mesh to Canton — Outcome-Linked SV Weight (Max 10)  
 Author(s): Jacob McCrum  
 Type: Governance  
-Status: Draft  
+Status: Approved  
 Created: 2025-12-09 
+Approved: 2026-01-09
 License: CC0-1.0: Creative Commons CC0 1.0 Universal
 </pre>
 
@@ -65,5 +66,11 @@ Mesh's crypto payment infrastructure connects 400+ million users across 300+ wal
 
 ## Copyright
 
-- This CIP is licensed under **CC0-1.0: Creative Commons CC0 1.0 Universal**.
+- This CIP is licensed under [CC0-1.0: Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
+
+
+## Changelog 
+
+2025-12-09: Initial draft of the proposal.
+2026-01-09: CIP approved.
