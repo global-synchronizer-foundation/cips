@@ -89,6 +89,7 @@ Global Synchronizer CIPs
 | [cip-0092](/cip-0092/cip-0092.md) |  |Controlled Transition to Dynamic Market Feeds Post-Listing of Canton Coin (CC)|Eric Saraniecki| Governance | Approved |
 | [cip-0093](/cip-0093/cip-0093.md) |  | Add Bosphorus SV (BSV) as a Super Validator (Max Weight 6) | Eric Saraniecki | Governance | Approved |
 | [cip-0094](/cip-0094/cip-0094.md) |  | Add Blockdaemon as a Super Validator (weight 5.0) | Brad Turner, Demo Skalkotos, Jesse Farese | Governance | Approved |
+| [cip-0095](/cip-0095/cip-0095.md) |  | Onboard Mesh to Canton — Outcome-Linked SV Weight (Max 10) | Jacob McCrum  | Governance | Approved |
 | [cip-0096](/cip-0096/cip-0096.md) |  | Removing Liveness Rewards from Validator Rewards Pool | Chris Zuehlke, Andrew Bryan | Tokenomics | Approved |
 | [cip-0097](/cip-0097/cip-0097.md) |  | Nasdaq Super Validator Participation | Eric Saraniecki | Governance | Approved |
 | [cip-0098](/cip-0098/cip-0098.md) |  | Cap Per-Transaction Application Rewards at $1.50 | Eric Saraniecki | Tokenomics | Approved |
