@@ -94,4 +94,4 @@ Global Synchronizer CIPs
 | [cip-0097](/cip-0097/cip-0097.md) |  | Nasdaq Super Validator Participation | Eric Saraniecki | Governance | Approved |
 | [cip-0098](/cip-0098/cip-0098.md) |  | Cap Per-Transaction Application Rewards at $1.50 | Eric Saraniecki | Tokenomics | Approved |
 | [cip-0099](/cip-0099/cip-0099.md) |  | Zero Hash Modifications to Adoption Incentive  | Eric Saraniecki | Governance | Approved |
-| [cip-0100](/cip-0100/cip-0100.md) |  | Governance of the CIP-0082 Development Fund  | Bernhard Elsner | Governance | Proposed |
+| [cip-0100](/cip-0100/cip-0100.md) |  | Governance of the CIP-0082 Development Fund  | Bernhard Elsner | Governance | Approved |
