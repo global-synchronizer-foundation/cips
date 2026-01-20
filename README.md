@@ -94,3 +94,4 @@ Global Synchronizer CIPs
 | [cip-0097](/cip-0097/cip-0097.md) |  | Nasdaq Super Validator Participation | Eric Saraniecki | Governance | Approved |
 | [cip-0098](/cip-0098/cip-0098.md) |  | Cap Per-Transaction Application Rewards at $1.50 | Eric Saraniecki | Tokenomics | Approved |
 | [cip-0099](/cip-0099/cip-0099.md) |  | Zero Hash Modifications to Adoption Incentive  | Eric Saraniecki | Governance | Approved |
+| [cip-0101](/cip-0101/cip-0101.md) |  | Add Finoa as an SV of Weight 3   | Eric Saraniecki | Governance | Proposed |
