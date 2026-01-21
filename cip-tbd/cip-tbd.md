@@ -1,7 +1,7 @@
-# CIP-TBD: dApp Standard
+# CIP-0102: dApp Standard
 
 <pre>
- CIP: TBD
+ CIP: 0102
  Title: dApp Standard
  Author: Digital Asset (Marc Juchli), PixelPlex (Alexey Chyker, Eugene Birski) 
  Status: Draft
