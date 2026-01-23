@@ -15,7 +15,7 @@
 
 This CIP supports a 24 submission delay between preparing and
 execution for all CC end-user transactions. Specifically this applies to all
-token standard operations making CC fully compliant with the token as
+token standard operations making CC fully compliant with the token standard as
 well as the CC specific public actions of creating, renewing, and
 archiving preapprovals, purchasing traffic, and tapping funds on
 DevNet.
