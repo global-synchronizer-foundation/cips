@@ -4,7 +4,7 @@
   CIP: <Draft: To be assigned>
   Title: Traffic-Based Validator Rewards and Confirming Validator Incentives
   Author: David Richards, Simon Meier and Bernhard Elsner
-  Status: Draft
+  Status: Proposed 
   Type: Tokenomics
   Category: Tokenomics
   Created: 2026-06-29
