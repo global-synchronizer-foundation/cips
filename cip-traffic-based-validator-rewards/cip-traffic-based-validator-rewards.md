@@ -1,7 +1,7 @@
 ## CIP: Traffic-Based Validator Rewards and Confirming Validator Incentives
 
 <pre>
-  CIP: <Draft: To be assigned>
+  CIP: CIP-0120
   Title: Traffic-Based Validator Rewards and Confirming Validator Incentives
   Author: David Richards, Simon Meier and Bernhard Elsner
   Status: Proposed 
