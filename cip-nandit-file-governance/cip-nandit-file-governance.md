@@ -4,7 +4,7 @@ A discussion CIP for the Canton Foundation — Identity and Metadata SIG
 
 <pre>
   CIP: ?
-* Layer: Applications
+* Layer: Daml, Applications
   Title: File Governance for Multi-Party Contracts
   Author: Nandit Mehra (Lighthouse) &lt;nandit@lighthouse.storage&gt;
 * Discussions-To: cip-discuss@lists.sync.global
