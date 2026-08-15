@@ -1,7 +1,5 @@
 # File Governance for Multi-Party Contracts
 
-A discussion CIP for the Canton Foundation — Identity and Metadata SIG
-
 <pre>
   CIP: ?
 * Layer: Daml, Applications
@@ -272,15 +270,15 @@ Focuses on [Lighthouse](https://www.lighthouse.storage/)'s technical architectur
 
 ## References
 
-* Tricolor indictment and bank losses: CNBC, American Banker (December 2025)
-* First Brands: Global Trade Review (October to November 2025)
-* Qingdao Port: Global Trade Review, Fastmarkets
+* [Tricolor indictment and bank losses: CNBC, American Banker (December 2025)](https://www.cnbc.com/2025/12/17/tricolor-execs-charged-with-systematic-fraud-after-subprime-auto-lender-roiled-banking-sector.html)
+* [First Brands: Global Trade Review (October to November 2025)](https://www.gtreview.com/news/americas/first-brands-faces-investigation-into-double-financing-of-receivables-inventory/)
+* [Qingdao Port: Global Trade Review, Fastmarkets](https://www.gtreview.com/news/asia/qingdao-fraud-probe-ends-with-jail-term/)
 * Thomson Reuters / Refinitiv KYC survey
-* Encompass Corporation corporate KYC surveys, 2024 and 2026
-* Axoni post-trade reconciliation cost analysis
-* ICC trade finance digitalisation survey
-* Box Governance documentation: retention, legal holds, disposition
-* Sign Protocol documentation: schemas, attestations, data models
+* [Encompass Corporation corporate KYC surveys, 2024 and 2026](https://www.encompasscorporation.com/blog/95-of-corporate-treasury-teams-are-frustrated-with-kyc/)
+* [Axoni post-trade reconciliation cost analysis](https://axoni.com/press/unpacking-post-trade-reconciliation-challenges-part-2/)
+* [ICC trade finance digitalisation survey](https://iccwbo.org/news-publications/news/new-icc-survey-shows-pace-trade-finance-digitalisation/)
+* [Box Governance documentation: retention, legal holds, disposition](https://support.box.com/hc/en-us/articles/360044193773-About-Legal-Hold-Policies)
+* [Sign Protocol documentation: schemas, attestations, data models](https://docs.sign.global/)
 * [CIP-0000](../cip-0000/cip-0000.md) (process), [CIP-0056](../cip-0056/cip-0056.md) and [CIP-0112](../cip-0112/cip-0112.md) (token standard precedent), DStash Development Fund materials
 
 ## Copyright
